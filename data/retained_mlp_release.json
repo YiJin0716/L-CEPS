@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "fresh_acceptance_checks": {
+    "fresh_standard_tpr_retained": true,
+    "standard_nonnull_primary_fdr": true,
+    "standard_nonnull_primary_tpr_retained": true,
+    "broad_nonnull_primary_fdr": true,
+    "broad_nonnull_primary_tpr_retained": true,
+    "adjusted_synthetic_primary_fdr": true,
+    "adjusted_synthetic_primary_tpr_retained": true,
+    "adjusted_semisynthetic_primary_fdr": true,
+    "adjusted_semisynthetic_primary_tpr_retained": true,
+    "targeted_synthetic_primary_fdr": true,
+    "targeted_synthetic_primary_tpr_retained": true,
+    "targeted_semisynthetic_primary_fdr": true,
+    "targeted_semisynthetic_primary_tpr_retained": true,
+    "targeted_synthetic_paired_gain": true,
+    "targeted_semisynthetic_paired_gain": true
+  },
+  "public_api_examples": [
+    {
+      "id": 0,
+      "suite": "standard",
+      "kind": "synthetic",
+      "passed": true
+    },
+    {
+      "id": 1000,
+      "suite": "broad",
+      "kind": "synthetic",
+      "passed": true
+    },
+    {
+      "id": 3500,
+      "suite": "targeted",
+      "kind": "synthetic",
+      "passed": true
+    },
+    {
+      "id": 4900,
+      "suite": "targeted",
+      "kind": "semisynthetic",
+      "passed": true
+    },
+    {
+      "id": 4700,
+      "suite": "targeted",
+      "kind": "null",
+      "passed": true
+    }
+  ],
+  "cli_exactly_matches": true,
+  "active_manifest_sha256": "5dabcc80f9f7afb490b9c9e2f82a66403049d906297a63e25a862c2ba56f045b",
+  "results_sha256": "9ba5dfa5b5b7a90d57560aa9692a77e12ebb24eaa3b952296590655e261a4f75",
+  "source_sha256": "ac0c24684398d6c3e7516847b1fb3e7cfda1fbca257f185d3be0d69b0df1e439",
+  "weights_sha256": "c984d982fc50b2219dd9486e7450099c8b667f1cda554771059fcd1180d72bf9"
+}

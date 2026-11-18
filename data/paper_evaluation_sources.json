@@ -1,0 +1,53 @@
+{
+  "isolet": {
+    "url": "https://raw.githubusercontent.com/jundongl/scikit-feature/48cffad4e88ff4b9d2f1c7baffb314d1b3303792/skfeature/data/Isolet.mat",
+    "raw_sha256": "ea73c69b1342a7def8199458e53a70307a83d557eceb2579863dda57c3ccd2b1",
+    "raw_shape": [
+      1560,
+      617
+    ],
+    "shape": [
+      1560,
+      617
+    ],
+    "columns_removed": 0,
+    "outcome_unused": true
+  },
+  "coil20": {
+    "url": "https://raw.githubusercontent.com/jundongl/scikit-feature/48cffad4e88ff4b9d2f1c7baffb314d1b3303792/skfeature/data/COIL20.mat",
+    "raw_sha256": "4595ebdda07f47b0eb014fcfaddc22b452f9aed9c1d9261a0d5bc336c1ee1344",
+    "raw_shape": [
+      1440,
+      1024
+    ],
+    "shape": [
+      1440,
+      1024
+    ],
+    "columns_removed": 0,
+    "outcome_unused": true
+  },
+  "har": {
+    "url": "https://archive.ics.uci.edu/static/public/240/human+activity+recognition+using+smartphones.zip",
+    "raw_sha256": "c00b803081a5c797cd5e4b83700a9810b38d53d9d84e01917e090e1fdbc81031",
+    "raw_shape": [
+      10299,
+      561
+    ],
+    "shape": [
+      10299,
+      561
+    ],
+    "columns_removed": 0,
+    "outcome_unused": true,
+    "pool": "concatenate original train/test predictor matrices; no original labels used"
+  },
+  "ovarian_rnaseq": {
+    "url": "https://raw.githubusercontent.com/omelikechi/ipss_bioinformatics/b9a4d4e8d7e8a738039ab58ce2b5718680629f5a/simulations/data/ovarian_rnaseq.npy",
+    "shape": [
+      569,
+      6426
+    ],
+    "sha256": "687333e5b597d8b598d0c7c4c9e3994ffe5188518cb645d3f623148b3102eba7"
+  }
+}

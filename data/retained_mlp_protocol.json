@@ -1,0 +1,64 @@
+{
+  "created_utc": "2026-11-06T01:43:32.576702+00:00",
+  "configs": {
+    "balanced": {
+      "original_mass": 0.575,
+      "distill": 0.0,
+      "hard_weight": 1.0
+    },
+    "original_weight": {
+      "original_mass": 0.8,
+      "distill": 0.0,
+      "hard_weight": 1.0
+    },
+    "distill_half": {
+      "original_mass": 0.65,
+      "distill": 0.5,
+      "hard_weight": 1.0
+    },
+    "distill_strong": {
+      "original_mass": 0.8,
+      "distill": 0.9,
+      "hard_weight": 1.0
+    },
+    "hard_rows": {
+      "original_mass": 0.65,
+      "distill": 0.0,
+      "hard_weight": 10.0
+    },
+    "distill_hard": {
+      "original_mass": 0.8,
+      "distill": 0.75,
+      "hard_weight": 10.0
+    }
+  },
+  "architecture": [
+    443,
+    128,
+    64,
+    1
+  ],
+  "initialization": "Current small MLP checkpoint; one scorer only, no H.",
+  "fitting": "Existing 5216 fitting datasets only; no assessment labels in gradient updates. Original training g values remain out-of-fold.",
+  "target": "On original fitting rows only, a fixed mixture of the true irrelevance label and original F predicted irrelevance; added fitting rows use true labels.",
+  "hard_weight": "Upweight rows with any of the eight saved IPSS q measurements <= .5, renormalize within dataset, then enforce the specified original/new total masses.",
+  "optimizer": {
+    "name": "AdamW",
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "epochs": 20,
+    "batch_size": 8192,
+    "gradient_clip": 10,
+    "seed": 2026110551
+  },
+  "preprocessing": "Unchanged training-only sign-log scaling saved with the existing MLP.",
+  "checkpoint_data": "500 deterministic, equally spaced draws from the previously examined 2500 standard tests, plus the existing 1360 broad/easier/harder validation draws. These are development data.",
+  "guards": "At .05,.10,.20, standard TPR >= 98% of original screened F; each nonnull group and each null source mean FDR <= alpha+.02; broad/easier/harder group TPR >= 95% of current screened MLP.",
+  "objective": "Maximize equally weighted harder-synthetic/harder-real-predictor TPR over .05,.10,.20 among feasible checkpoints; improve this objective by at least 0.005 over current screened MLP.",
+  "final_check": "All 9310 old regression draws and unchanged appendix designs; freeze one feasible candidate before generating fresh confirmation seeds. No publication on validation performance alone.",
+  "gate": "Unchanged ten-IPSS union at the current target; no target or simulator labels enter F.",
+  "training_source_sha256": "87d9443f4d7ccddfdb9a9f22b268884df8d8ed0b9770b5d08c48b5a8ac4ae2ec",
+  "training_cache_sha256": "efdf3c3e402a1ce08c06a2de5d60364c98055b69b820c9b263414e95be155bcf",
+  "initial_weights_sha256": "3871c5b48c439a7e6b3e597484c0d7ec3a32b7899e2594d97032f015d6a553bd",
+  "teacher_weights_sha256": "c6edf194a1589311bf7e10b0562accab22cf2aabf254b6ac8056bdd2e74cc1c8"
+}

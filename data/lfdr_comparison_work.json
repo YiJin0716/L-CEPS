@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "completed": 4000,
+  "datasets": 4000,
+  "settings": 40,
+  "all_settings_reported": true,
+  "protocol_sha256": "0d86317f015224f34da0e7fad5b7dff2921f5c4a50f8274a8f9c037f92979ab8",
+  "audit_sha256": "2e26b1e83d2f5f7d267a2e21534f4302ed4e54d79d1ec658188551d51ba3379b",
+  "report_sha256": "fda03fc18f0c6ad71601da125d7d76117a56ee93d9d50d15942ca6337408b929",
+  "report_pages": 37,
+  "paired_figures": 49,
+  "original_model_unchanged": true,
+  "plot_values_independently_recomputed": true,
+  "csv_rows": 10455,
+  "updated_utc": "2026-11-16T18:00:22.681279+00:00"
+}

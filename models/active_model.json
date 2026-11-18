@@ -1,0 +1,72 @@
+{
+  "kind": "mlp_screened_single_f",
+  "name": "the model",
+  "verified": true,
+  "weights_file": "retained_mlp_hard_rows.pt",
+  "architecture": [
+    443,
+    128,
+    64,
+    1
+  ],
+  "release_reason": "Preserve the original standard benchmark and improve the fixed harder assessment designs with one small MLP.",
+  "source_sha256": {
+    "explore/__init__.py": "a079687d05c7e5a5b037333b5c0008221bd39a277aa363f7de6ca34b8a941406",
+    "explore/blocks.py": "506c1d0ff77b26cda9477cc57b82171a993e393a4f33ea868a631915658a2470",
+    "explore/conditional.py": "f55c371e2671c06ebc6767eb51874d3cf6b7e02b04552c706211d02a896ba5b9",
+    "explore/current.py": "72bfeafd5dc4dd4a109a7c8969a62441afa28471b93fcf6bb88f47c1715da7d9",
+    "explore/expanded_f.py": "fbc8bbc45ac99c1c6fe2e1a361497ff5cf5061cdc84d685727ca9dc928e465ad",
+    "explore/features.py": "c77d6b04e65856970ae968e9c9852f4e415c36507d129c0b48f1141f17917d08",
+    "explore/generalized.py": "392bfbcd2e2c523d6fcee1f00b5b5eabcccc4282d72c4a53f38f5e79631a5e20",
+    "explore/ipss_path.py": "c4603b76ca25a0fcba64bb88381e1371d896950c0355845a80381010e7cbd51f",
+    "explore/model.py": "5b661b79c51231c7756d0133650c16e42c560020f439a7350ee839fc7b0fd16c",
+    "explore/observed.py": "0494dc45a0809a5420dd7fe5876e7d65c0548e4c3547b82bae9b26133eb6e515",
+    "explore/ols.py": "0aa2c2f3f8799bfccea4e4eac54319c859adffc39fb1a41cb7e8cb4622c578b6",
+    "explore/paths.py": "dca765b5d0a7de58c5622861a882abb112d2b90def21abfc1c1473a3b1b311d6",
+    "explore/predict.py": "e1eed319d49bb03a6256a83f735647c06d6a04c63cf1f3fdb9e79575f8c95f87",
+    "explore/retained.py": "fe34c6894ee9ee7b3bfb06ac62bb168f309142b8a50c2e805aef37c58bfb764d",
+    "explore/saturating.py": "ea40e878ecf04fe5a7569482aa10783329effe6a915c17d80495fd9010a4db7d",
+    "explore/screening.py": "2fce63774d20f7b182925830e480d210aba66e04e28730523d8b0e483e3dec8f",
+    "explore/sparse.py": "7c1b373ac6058698b772186e031cd87103cd0d7fc05b6841554a0202fdf9cd08",
+    "explore/weak.py": "f1fb57a38e108c0207dcf94b712be7ba7046ef6312abb04e3fb623b0ade3ef51",
+    "__init__.py": "2d5d1e512e7756c1f4506667c7765042f3e092e5b8dab94f8eb7ce039c5021fd",
+    "__main__.py": "6261f99de8842f0625f639356e674dd0317ee52b1dc3230ff15144ae41738d7e"
+  },
+  "weights_and_metadata_sha256": {
+    "retained_mlp_hard_rows.pt": "c984d982fc50b2219dd9486e7450099c8b667f1cda554771059fcd1180d72bf9",
+    "retained_mlp.json": "4343fefb1779dc18d033bd5235ae128a0cf07e26938547000ed7333339d7c81a",
+    "expanded_f.json": "13b36fc1a9e5c23a65829879a83bb39e48f62e86de84a62749d3031c3513405a",
+    "final/prior.ubj": "f1ed2767016667d548967612a312a9e305d1c64c96aab44bb2c7a5039542bddc"
+  },
+  "training_datasets": 5216,
+  "training_variable_rows": 1636538,
+  "input_columns": 443,
+  "g_retrained": false,
+  "f_retrained": true,
+  "f_fitted_on_all_variables": true,
+  "second_scorer": false,
+  "calibration": false,
+  "candidate_gate": true,
+  "screening_rule": "union10_at_target",
+  "screening_deltas": [
+    -1.0,
+    0.0,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "target_dependent_screen": true,
+  "assessment_results_sha256": "9ba5dfa5b5b7a90d57560aa9692a77e12ebb24eaa3b952296590655e261a4f75",
+  "assessment_protocol_sha256": "1706719fa98904c2a7ace36362c78a9c3bc75f2bad7561e65b9b713a6dbe1f40",
+  "assessment": "5400 fresh draws after freezing the candidate; previously examined setting families. Also checked all 9310 old benchmark draws.",
+  "limitation": "Screening may discard relevant variables and does not establish a general FDR guarantee.",
+  "previous_manifest_sha256": "1a53cfec61c01039e5acb14f048c6153cd5a96176a44dad5d1b52a7c10fc68e6",
+  "released_utc": "2026-11-06T02:09:43.198084+00:00",
+  "inference_loader": "retained",
+  "storage_cleanup": "Retained current model only. Runtime code pruned without changing either fitted component, input scaling or selection rule. Historical comparator outputs remain in current evaluation records.",
+  "cleanup_record": "data/current_cleanup.json",
+  "relocation": {
+    "original_manifest_sha256": "3f44da7e0e654c3606906a7c3fe67f2fc3fd65a21684a7e246cb27e95ba59956",
+    "reason": "Relocated into final_model; IPSS path helpers extracted from the delta-learning pipeline; numerical model unchanged."
+  }
+}

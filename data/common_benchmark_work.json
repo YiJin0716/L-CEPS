@@ -1,0 +1,92 @@
+{
+  "status": "complete",
+  "settings": 12,
+  "datasets": 1200,
+  "protocol_sha256": "c7a2b2f2153fbe3ba0b9c8af33094e814c01e7519b1a3cd165d686946c3d980b",
+  "jobs": [
+    {
+      "job_id": "13667692",
+      "node": "compsci-cluster-fitz-29",
+      "shard": 0,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--partition=compsci-gpu",
+        "--nodes=1",
+        "--cpus-per-task=24",
+        "--mem=64G",
+        "--time=02:00:00",
+        "--nodelist=compsci-cluster-fitz-29",
+        "--job-name=IPSS-common-0",
+        "--output=/home/users/yj255/code/IPSS/yi_jin/omar_code/simulation/simulation_result/explore/data/common_benchmark_0.log",
+        "/tmp/ipss-common-benchmarks.sh",
+        "0"
+      ]
+    },
+    {
+      "job_id": "13667693",
+      "node": "compsci-cluster-fitz-30",
+      "shard": 1,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--partition=compsci-gpu",
+        "--nodes=1",
+        "--cpus-per-task=24",
+        "--mem=64G",
+        "--time=02:00:00",
+        "--nodelist=compsci-cluster-fitz-30",
+        "--job-name=IPSS-common-1",
+        "--output=/home/users/yj255/code/IPSS/yi_jin/omar_code/simulation/simulation_result/explore/data/common_benchmark_1.log",
+        "/tmp/ipss-common-benchmarks.sh",
+        "1"
+      ]
+    }
+  ],
+  "updated_utc": "2026-11-12T03:12:31.608678+00:00",
+  "all_1200_generation_checks_passed": true,
+  "public_api_smoke_checks_passed": 2,
+  "postprocessing_job": "13667711",
+  "postprocessing_command": [
+    "sbatch",
+    "--parsable",
+    "--partition=compsci-gpu",
+    "--nodes=1",
+    "--cpus-per-task=2",
+    "--mem=12G",
+    "--time=01:00:00",
+    "--nodelist=compsci-cluster-fitz-29",
+    "--dependency=afterok:13667692:13667693",
+    "--job-name=IPSS-common-report",
+    "--output=/home/users/yj255/code/IPSS/yi_jin/omar_code/simulation/simulation_result/explore/data/common_benchmark_report.log",
+    "/tmp/ipss-common-benchmark-audit.sh"
+  ],
+  "completed_datasets": 1200,
+  "combined_datasets": 4000,
+  "combined_settings": 40,
+  "all_jobs_completed": true,
+  "job_completion": [
+    "13667692|COMPLETED|00:04:52|0:0",
+    "13667693|COMPLETED|00:04:46|0:0",
+    "13667711|COMPLETED|00:00:54|0:0"
+  ],
+  "audit_passed": true,
+  "model_unchanged": true,
+  "all_dimensions_n_le_p": true,
+  "original_18_plot_data_groups_unchanged": true,
+  "all_settings_reported": true,
+  "final_note": "/home/users/yj255/code/IPSS/yi_jin/omar_code/simulation/simulation_result/explore/final_model_note.pdf",
+  "pdf_sha256": "6f359d33be7dfbe9e6548675992d9ed90f0f62dfb51dcb55925cd21b52919a92",
+  "note_pages": 23,
+  "paired_figures": 24,
+  "visually_reviewed_pages": [
+    18,
+    22,
+    23
+  ],
+  "removed_completed_logs": [
+    "common_benchmark_0.log",
+    "common_benchmark_1.log",
+    "common_benchmark_report.log"
+  ]
+}

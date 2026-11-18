@@ -1,0 +1,7 @@
+*.npz filter=lfs diff=lfs merge=lfs -text
+*.npy filter=lfs diff=lfs merge=lfs -text
+*.sqlite filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.ubj filter=lfs diff=lfs merge=lfs -text
+# csv.writer emits RFC-style CRLF records; preserve the recorded artifact bytes.
+*.csv -text whitespace=cr-at-eol

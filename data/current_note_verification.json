@@ -1,0 +1,358 @@
+{
+  "assessment": "paper_small_sample",
+  "model_kind": "mlp_screened_single_f",
+  "source_sha256": "79b1d17c62357df4b0d5136f669551e9160a148b6844759475e174bfd95aa69b",
+  "renderer_sha256": "63da3822a6ad0f98c264f72633a344f1192bcd927e0b5fe8158979705c86be30",
+  "note_source_sha256": "ecfe52da74a6b8d6e12ae4b2aa6027abd3940b17bb1d5e28c2adefb635c27c33",
+  "pdf_sha256": "fda03fc18f0c6ad71601da125d7d76117a56ee93d9d50d15942ca6337408b929",
+  "figures_sha256": "bb2219fef72ea97fcf9661a251b3fee00da18e51feec2cda12dc7a0148801eff",
+  "active_manifest_sha256": "1a2705ecd641f1e9bb055cfb2a42438fe5e1bc29658c5a0991e2a384df264419",
+  "weights_sha256": "c984d982fc50b2219dd9486e7450099c8b667f1cda554771059fcd1180d72bf9",
+  "protocol_sha256": "a3cfb84124641522c3ec3e75ce0193f9f818dbc256b2aac5d86006402e7dc0a6",
+  "plot_data_sha256": "0950148f356913080e95915b99d222fdfe22bd9e91937e1653e8606a75db2ccf",
+  "plot_counts_sha256": "5ac68d6e18ab667df10b6292b54534d44f7ca5e08c85ae9b47151bdca622c6c3",
+  "assessment_audit_sha256": "f837ff45215bf0ff932a0750e74a353397a4e59a4b2da95e3ac764d292452adb",
+  "public_api_verification_sha256": "53b3be3466ec75e48a8d6881bde67b677cc9342ed06d7a6f85f4009cc4956de4",
+  "common_protocol_sha256": "c7a2b2f2153fbe3ba0b9c8af33094e814c01e7519b1a3cd165d686946c3d980b",
+  "common_counts_sha256": "dc98c57570d9d37d895983304d2143374d65e4080b0eb3628baa6301266df287",
+  "common_audit_sha256": "4451c14e524c182d33729a07bb98fd1edc6f73ba391e47d2ad395f4c0506176b",
+  "original_18_plot_data_groups_unchanged": true,
+  "all_plotted_curves_recounted": true,
+  "all_settings_reported": true,
+  "datasets": 4000,
+  "settings": 40,
+  "paired_figures": 49,
+  "main_figures": 9,
+  "appendix_simulated_figures": 16,
+  "appendix_real_predictor_figures": 24,
+  "appendix_only_figures_and_dataset_introductions": true,
+  "appendix_selected_after_evaluation": false,
+  "displayed_methods": [
+    "the_model",
+    "gb_ipss",
+    "lasso_ipss",
+    "lasso_cv",
+    "adaptz",
+    "cumulative_ell",
+    "lasso_mfdr_pointwise",
+    "lasso_mfdr_cumulative"
+  ],
+  "pages": 37,
+  "actual_pdf_figure_checks": [
+    {
+      "figure": 1,
+      "page": 10,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 2,
+      "page": 11,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 3,
+      "page": 11,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 4,
+      "page": 12,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 5,
+      "page": 13,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 6,
+      "page": 13,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 7,
+      "page": 14,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 8,
+      "page": 14,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 9,
+      "page": 17,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 10,
+      "page": 18,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 11,
+      "page": 18,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 12,
+      "page": 19,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 13,
+      "page": 19,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 14,
+      "page": 20,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 15,
+      "page": 20,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 16,
+      "page": 21,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 17,
+      "page": 21,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 18,
+      "page": 22,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 19,
+      "page": 22,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 20,
+      "page": 23,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 21,
+      "page": 23,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 22,
+      "page": 24,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 23,
+      "page": 24,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 24,
+      "page": 25,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 25,
+      "page": 25,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 26,
+      "page": 26,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 27,
+      "page": 26,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 28,
+      "page": 27,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 29,
+      "page": 27,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 30,
+      "page": 28,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 31,
+      "page": 28,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 32,
+      "page": 29,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 33,
+      "page": 29,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 34,
+      "page": 30,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 35,
+      "page": 30,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 36,
+      "page": 31,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 37,
+      "page": 31,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 38,
+      "page": 32,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 39,
+      "page": 32,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 40,
+      "page": 33,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 41,
+      "page": 33,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 42,
+      "page": 34,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 43,
+      "page": 34,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 44,
+      "page": 35,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 45,
+      "page": 35,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 46,
+      "page": 36,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 47,
+      "page": 36,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 48,
+      "page": 37,
+      "paired_axes": true,
+      "dataset_description_above": true
+    },
+    {
+      "figure": 49,
+      "page": 37,
+      "paired_axes": true,
+      "dataset_description_above": true
+    }
+  ],
+  "unresolved_compilation_warnings": [],
+  "original_displayed_methods": [
+    "the_model",
+    "gb_ipss",
+    "lasso_ipss",
+    "lasso_cv"
+  ],
+  "lfdr_displayed_methods": [
+    "the_model",
+    "adaptz",
+    "cumulative_ell",
+    "lasso_mfdr_pointwise",
+    "lasso_mfdr_cumulative"
+  ],
+  "lfdr_comparison_datasets": 4000,
+  "lfdr_comparison_figures": 25,
+  "lfdr_comparison_audit_sha256": "2e26b1e83d2f5f7d267a2e21534f4302ed4e54d79d1ec658188551d51ba3379b",
+  "lfdr_comparison_renderer_sha256": "88a646181b9e1666d70f48c07e953c6a9cd9ff9287ddb27a7ae93393bd1efb9c",
+  "lfdr_comparison_figure_sha256": "f8c2d3b7886980628bb92e3682568e781014347f1d76980e1a4575253e6ab133",
+  "lfdr_plot_data_sha256": "4787d96e101c87a1608c53d5160f0c616eaf1cd52316fa48b56909bbb1a269ce",
+  "original_curves_unchanged": true
+}

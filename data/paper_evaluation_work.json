@@ -1,0 +1,76 @@
+{
+  "status": "complete",
+  "protocol_sha256": "a3cfb84124641522c3ec3e75ce0193f9f818dbc256b2aac5d86006402e7dc0a6",
+  "datasets": 2800,
+  "settings": 28,
+  "jobs": [
+    {
+      "job_id": "13647798",
+      "node": "compsci-cluster-fitz-29",
+      "shard": 0,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--partition=compsci-gpu",
+        "--nodes=1",
+        "--cpus-per-task=24",
+        "--mem=64G",
+        "--time=02:00:00",
+        "--nodelist=compsci-cluster-fitz-29",
+        "--job-name=IPSS-small-n-0",
+        "--output=/home/users/yj255/code/IPSS/yi_jin/omar_code/simulation/simulation_result/explore/data/paper_evaluation_0.log",
+        "/tmp/ipss-paper-small-sample.sh",
+        "0"
+      ]
+    },
+    {
+      "job_id": "13647799",
+      "node": "compsci-cluster-fitz-30",
+      "shard": 1,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--partition=compsci-gpu",
+        "--nodes=1",
+        "--cpus-per-task=24",
+        "--mem=64G",
+        "--time=02:00:00",
+        "--nodelist=compsci-cluster-fitz-30",
+        "--job-name=IPSS-small-n-1",
+        "--output=/home/users/yj255/code/IPSS/yi_jin/omar_code/simulation/simulation_result/explore/data/paper_evaluation_1.log",
+        "/tmp/ipss-paper-small-sample.sh",
+        "1"
+      ]
+    }
+  ],
+  "updated_utc": "2026-11-12T01:38:29.256843+00:00",
+  "postprocessing_job": "13650477",
+  "package_versions_recorded_during_evaluation": {
+    "ipss": "1.1.11",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.6.1",
+    "torch": "2.12.0",
+    "xgboost": "3.2.0",
+    "matplotlib": "3.10.9"
+  },
+  "completed_datasets": 2800,
+  "all_jobs_completed": true,
+  "elapsed": {
+    "13647798": "00:22:14",
+    "13647799": "00:21:22",
+    "13650477": "00:04:13"
+  },
+  "final_note": "/home/users/yj255/code/IPSS/yi_jin/omar_code/simulation/simulation_result/explore/final_model_note.pdf",
+  "pdf_sha256": "9c24a31378f63483f4312ab7626821f298344d7b138b529f4d475f58757a35ea",
+  "note_pages": 20,
+  "paired_figures": 18,
+  "visually_reviewed_pages": [
+    11,
+    13,
+    16,
+    18
+  ],
+  "audit_passed": true,
+  "all_settings_reported": true
+}

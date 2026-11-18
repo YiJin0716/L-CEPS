@@ -1,0 +1,3441 @@
+{
+  "name": "hard_rows",
+  "config": {
+    "original_mass": 0.65,
+    "distill": 0.0,
+    "hard_weight": 10.0
+  },
+  "weights_sha256": "c984d982fc50b2219dd9486e7450099c8b667f1cda554771059fcd1180d72bf9",
+  "protocol_sha256": "5726a930a870714cd822c6647c02e5e489028d1e54570a125c6a2ed8903ade0b",
+  "best": {
+    "epoch": 5,
+    "training_loss": 0.2172590818047797,
+    "checks": {
+      "standard_power": true,
+      "standard_fdr": true,
+      "broad_nonnull_fdr": true,
+      "broad_synthetic_fdr": true,
+      "broad_null_fdr": true,
+      "adjusted_nonnull_fdr": true,
+      "adjusted_synthetic_fdr": true,
+      "adjusted_semisynthetic_fdr": true,
+      "adjusted_null_fdr": true,
+      "targeted_nonnull_fdr": true,
+      "targeted_synthetic_fdr": true,
+      "targeted_semisynthetic_fdr": true,
+      "targeted_null_fdr": true,
+      "broad_nonnull_retention": true,
+      "adjusted_synthetic_retention": true,
+      "adjusted_semisynthetic_retention": true,
+      "targeted_synthetic_retention": true,
+      "targeted_semisynthetic_retention": true,
+      "new_gain": true
+    },
+    "feasible": true,
+    "objective": 0.16977430555555553,
+    "baseline_objective": 0.1216666666666667,
+    "fallback_score": 0.16977430555555553,
+    "standard": {
+      "fdr": [
+        0.04698672716172716,
+        0.09880452279843514,
+        0.20570129633205056
+      ],
+      "tpr": [
+        0.23634666666666654,
+        0.3279733333333335,
+        0.41380666666666654
+      ]
+    },
+    "new_groups": {
+      "broad_nonnull": {
+        "fdr": [
+          0.0123,
+          0.02783333333333333,
+          0.06947380952380952
+        ],
+        "tpr": [
+          0.14096666666666668,
+          0.17399166666666666,
+          0.22672500000000007
+        ]
+      },
+      "broad_synthetic": {
+        "fdr": [
+          0.0123,
+          0.02783333333333333,
+          0.06947380952380952
+        ],
+        "tpr": [
+          0.14096666666666668,
+          0.17399166666666666,
+          0.22672500000000007
+        ]
+      },
+      "broad_null": {
+        "fdr": [
+          0.0,
+          0.0,
+          0.03333333333333333
+        ],
+        "tpr": null
+      },
+      "adjusted_nonnull": {
+        "fdr": [
+          0.014733893557422969,
+          0.04127100840336134,
+          0.13436953569306512
+        ],
+        "tpr": [
+          0.7969117647058823,
+          0.8442401960784314,
+          0.9016666666666666
+        ]
+      },
+      "adjusted_synthetic": {
+        "fdr": [
+          0.012539682539682538,
+          0.035203373015873014,
+          0.13842231842231842
+        ],
+        "tpr": [
+          0.7185416666666669,
+          0.7835069444444445,
+          0.8627777777777778
+        ]
+      },
+      "adjusted_semisynthetic": {
+        "fdr": [
+          0.02,
+          0.05583333333333333,
+          0.12464285714285712
+        ],
+        "tpr": [
+          0.985,
+          0.99,
+          0.9949999999999999
+        ]
+      },
+      "adjusted_null": {
+        "fdr": [
+          0.0,
+          0.025,
+          0.05
+        ],
+        "tpr": null
+      },
+      "targeted_nonnull": {
+        "fdr": [
+          0.017993697478991596,
+          0.0504750233426704,
+          0.12150328429740194
+        ],
+        "tpr": [
+          0.1122549019607843,
+          0.16367647058823534,
+          0.24272058823529405
+        ]
+      },
+      "targeted_synthetic": {
+        "fdr": [
+          0.009518849206349206,
+          0.03511739417989418,
+          0.11164354164354162
+        ],
+        "tpr": [
+          0.11249999999999999,
+          0.16937500000000003,
+          0.25010416666666657
+        ]
+      },
+      "targeted_semisynthetic": {
+        "fdr": [
+          0.03833333333333333,
+          0.08733333333333332,
+          0.14516666666666667
+        ],
+        "tpr": [
+          0.11166666666666666,
+          0.15,
+          0.225
+        ]
+      },
+      "targeted_null": {
+        "fdr": [
+          0.0,
+          0.0,
+          0.07500000000000001
+        ],
+        "tpr": null
+      }
+    }
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "training_loss": 0.2275391152465184,
+      "checks": {
+        "standard_power": false,
+        "standard_fdr": true,
+        "broad_nonnull_fdr": true,
+        "broad_synthetic_fdr": true,
+        "broad_null_fdr": true,
+        "adjusted_nonnull_fdr": true,
+        "adjusted_synthetic_fdr": true,
+        "adjusted_semisynthetic_fdr": true,
+        "adjusted_null_fdr": true,
+        "targeted_nonnull_fdr": true,
+        "targeted_synthetic_fdr": true,
+        "targeted_semisynthetic_fdr": true,
+        "targeted_null_fdr": true,
+        "broad_nonnull_retention": true,
+        "adjusted_synthetic_retention": true,
+        "adjusted_semisynthetic_retention": true,
+        "targeted_synthetic_retention": true,
+        "targeted_semisynthetic_retention": false,
+        "new_gain": false
+      },
+      "feasible": false,
+      "objective": 0.11772569444444447,
+      "baseline_objective": 0.1216666666666667,
+      "fallback_score": -0.10021270555555523,
+      "standard": {
+        "fdr": [
+          0.025127655677655673,
+          0.07119124258094847,
+          0.17765235451778136
+        ],
+        "tpr": [
+          0.19174000000000008,
+          0.29468666666666665,
+          0.39237999999999995
+        ]
+      },
+      "new_groups": {
+        "broad_nonnull": {
+          "fdr": [
+            0.016233333333333332,
+            0.03762380952380953,
+            0.07921269841269842
+          ],
+          "tpr": [
+            0.13973333333333332,
+            0.1690666666666667,
+            0.21680833333333333
+          ]
+        },
+        "broad_synthetic": {
+          "fdr": [
+            0.016233333333333332,
+            0.03762380952380953,
+            0.07921269841269842
+          ],
+          "tpr": [
+            0.13973333333333332,
+            0.1690666666666667,
+            0.21680833333333333
+          ]
+        },
+        "broad_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "tpr": null
+        },
+        "adjusted_nonnull": {
+          "fdr": [
+            0.011792717086834733,
+            0.03462418300653595,
+            0.12148809523809521
+          ],
+          "tpr": [
+            0.7529901960784313,
+            0.8166911764705883,
+            0.8848284313725489
+          ]
+        },
+        "adjusted_synthetic": {
+          "fdr": [
+            0.005595238095238095,
+            0.026203703703703705,
+            0.11993551587301582
+          ],
+          "tpr": [
+            0.6618750000000001,
+            0.7486458333333333,
+            0.8368402777777776
+          ]
+        },
+        "adjusted_semisynthetic": {
+          "fdr": [
+            0.026666666666666665,
+            0.05483333333333333,
+            0.1252142857142857
+          ],
+          "tpr": [
+            0.9716666666666665,
+            0.9799999999999999,
+            1.0
+          ]
+        },
+        "adjusted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.025
+          ],
+          "tpr": null
+        },
+        "targeted_nonnull": {
+          "fdr": [
+            0.0035294117647058825,
+            0.022797619047619046,
+            0.07094314998726763
+          ],
+          "tpr": [
+            0.07004901960784311,
+            0.11458333333333331,
+            0.183578431372549
+          ]
+        },
+        "targeted_synthetic": {
+          "fdr": [
+            0.0008333333333333334,
+            0.010768849206349206,
+            0.0601555735930736
+          ],
+          "tpr": [
+            0.07145833333333333,
+            0.12135416666666667,
+            0.19687500000000002
+          ]
+        },
+        "targeted_semisynthetic": {
+          "fdr": [
+            0.01,
+            0.05166666666666667,
+            0.09683333333333333
+          ],
+          "tpr": [
+            0.06666666666666668,
+            0.09833333333333334,
+            0.1516666666666667
+          ]
+        },
+        "targeted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.025
+          ],
+          "tpr": null
+        }
+      }
+    },
+    {
+      "epoch": 2,
+      "training_loss": 0.2238405542555594,
+      "checks": {
+        "standard_power": false,
+        "standard_fdr": true,
+        "broad_nonnull_fdr": true,
+        "broad_synthetic_fdr": true,
+        "broad_null_fdr": true,
+        "adjusted_nonnull_fdr": true,
+        "adjusted_synthetic_fdr": true,
+        "adjusted_semisynthetic_fdr": true,
+        "adjusted_null_fdr": true,
+        "targeted_nonnull_fdr": true,
+        "targeted_synthetic_fdr": true,
+        "targeted_semisynthetic_fdr": true,
+        "targeted_null_fdr": true,
+        "broad_nonnull_retention": false,
+        "adjusted_synthetic_retention": true,
+        "adjusted_semisynthetic_retention": true,
+        "targeted_synthetic_retention": true,
+        "targeted_semisynthetic_retention": true,
+        "new_gain": true
+      },
+      "feasible": false,
+      "objective": 0.13435763888888894,
+      "baseline_objective": 0.1216666666666667,
+      "fallback_score": -0.10829086111111103,
+      "standard": {
+        "fdr": [
+          0.02111572316572317,
+          0.06673947587500219,
+          0.15743987668964451
+        ],
+        "tpr": [
+          0.17496666666666666,
+          0.2828533333333333,
+          0.3899733333333332
+        ]
+      },
+      "new_groups": {
+        "broad_nonnull": {
+          "fdr": [
+            0.009899999999999999,
+            0.028933333333333335,
+            0.055785714285714286
+          ],
+          "tpr": [
+            0.12390000000000002,
+            0.15996666666666667,
+            0.20530833333333337
+          ]
+        },
+        "broad_synthetic": {
+          "fdr": [
+            0.009899999999999999,
+            0.028933333333333335,
+            0.055785714285714286
+          ],
+          "tpr": [
+            0.12390000000000002,
+            0.15996666666666667,
+            0.20530833333333337
+          ]
+        },
+        "broad_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "tpr": null
+        },
+        "adjusted_nonnull": {
+          "fdr": [
+            0.007058823529411763,
+            0.026586134453781517,
+            0.11169000933706816
+          ],
+          "tpr": [
+            0.7426470588235294,
+            0.8083578431372548,
+            0.8725490196078431
+          ]
+        },
+        "adjusted_synthetic": {
+          "fdr": [
+            0.005833333333333333,
+            0.021344246031746034,
+            0.11669973544973543
+          ],
+          "tpr": [
+            0.6472222222222223,
+            0.7347569444444445,
+            0.8194444444444445
+          ]
+        },
+        "adjusted_semisynthetic": {
+          "fdr": [
+            0.01,
+            0.03916666666666666,
+            0.09966666666666665
+          ],
+          "tpr": [
+            0.9716666666666665,
+            0.985,
+            1.0
+          ]
+        },
+        "adjusted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.025
+          ],
+          "tpr": null
+        },
+        "targeted_nonnull": {
+          "fdr": [
+            0.005833333333333334,
+            0.02404761904761905,
+            0.07183712529300763
+          ],
+          "tpr": [
+            0.07321078431372548,
+            0.12803921568627452,
+            0.20240196078431372
+          ]
+        },
+        "targeted_synthetic": {
+          "fdr": [
+            0.0027083333333333334,
+            0.012539682539682538,
+            0.06503314972064973
+          ],
+          "tpr": [
+            0.07177083333333334,
+            0.12375000000000003,
+            0.20895833333333333
+          ]
+        },
+        "targeted_semisynthetic": {
+          "fdr": [
+            0.013333333333333332,
+            0.05166666666666666,
+            0.08816666666666667
+          ],
+          "tpr": [
+            0.07666666666666667,
+            0.13833333333333336,
+            0.1866666666666667
+          ]
+        },
+        "targeted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.025
+          ],
+          "tpr": null
+        }
+      }
+    },
+    {
+      "epoch": 3,
+      "training_loss": 0.22088990311917128,
+      "checks": {
+        "standard_power": false,
+        "standard_fdr": true,
+        "broad_nonnull_fdr": true,
+        "broad_synthetic_fdr": true,
+        "broad_null_fdr": true,
+        "adjusted_nonnull_fdr": true,
+        "adjusted_synthetic_fdr": true,
+        "adjusted_semisynthetic_fdr": true,
+        "adjusted_null_fdr": true,
+        "targeted_nonnull_fdr": true,
+        "targeted_synthetic_fdr": true,
+        "targeted_semisynthetic_fdr": true,
+        "targeted_null_fdr": true,
+        "broad_nonnull_retention": true,
+        "adjusted_synthetic_retention": true,
+        "adjusted_semisynthetic_retention": true,
+        "targeted_synthetic_retention": true,
+        "targeted_semisynthetic_retention": true,
+        "new_gain": true
+      },
+      "feasible": false,
+      "objective": 0.14578125,
+      "baseline_objective": 0.1216666666666667,
+      "fallback_score": 0.02908285000000027,
+      "standard": {
+        "fdr": [
+          0.02647226662226663,
+          0.07890551458345574,
+          0.1783419541798893
+        ],
+        "tpr": [
+          0.20023333333333343,
+          0.29760666666666663,
+          0.39246000000000003
+        ]
+      },
+      "new_groups": {
+        "broad_nonnull": {
+          "fdr": [
+            0.013966666666666667,
+            0.030266666666666664,
+            0.07097857142857142
+          ],
+          "tpr": [
+            0.1439,
+            0.17613333333333336,
+            0.22100833333333333
+          ]
+        },
+        "broad_synthetic": {
+          "fdr": [
+            0.013966666666666667,
+            0.030266666666666664,
+            0.07097857142857142
+          ],
+          "tpr": [
+            0.1439,
+            0.17613333333333336,
+            0.22100833333333333
+          ]
+        },
+        "broad_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.016666666666666666
+          ],
+          "tpr": null
+        },
+        "adjusted_nonnull": {
+          "fdr": [
+            0.0144187675070028,
+            0.04034780578898226,
+            0.12335784313725488
+          ],
+          "tpr": [
+            0.7664460784313725,
+            0.8236764705882351,
+            0.8801960784313726
+          ]
+        },
+        "adjusted_synthetic": {
+          "fdr": [
+            0.006190476190476191,
+            0.02771494708994709,
+            0.12062003968253965
+          ],
+          "tpr": [
+            0.6753819444444445,
+            0.7522916666666667,
+            0.8302777777777779
+          ]
+        },
+        "adjusted_semisynthetic": {
+          "fdr": [
+            0.034166666666666665,
+            0.07066666666666667,
+            0.12992857142857142
+          ],
+          "tpr": [
+            0.985,
+            0.9949999999999999,
+            1.0
+          ]
+        },
+        "adjusted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.025
+          ],
+          "tpr": null
+        },
+        "targeted_nonnull": {
+          "fdr": [
+            0.012303921568627451,
+            0.03360644257703081,
+            0.08569030642560055
+          ],
+          "tpr": [
+            0.08620098039215685,
+            0.1353921568627451,
+            0.20299019607843136
+          ]
+        },
+        "targeted_synthetic": {
+          "fdr": [
+            0.004930555555555556,
+            0.01705357142857143,
+            0.05901364838864839
+          ],
+          "tpr": [
+            0.07697916666666667,
+            0.12583333333333332,
+            0.20354166666666665
+          ]
+        },
+        "targeted_semisynthetic": {
+          "fdr": [
+            0.030000000000000006,
+            0.07333333333333333,
+            0.14971428571428572
+          ],
+          "tpr": [
+            0.10833333333333335,
+            0.15833333333333335,
+            0.20166666666666666
+          ]
+        },
+        "targeted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.025
+          ],
+          "tpr": null
+        }
+      }
+    },
+    {
+      "epoch": 4,
+      "training_loss": 0.21898481660625604,
+      "checks": {
+        "standard_power": false,
+        "standard_fdr": true,
+        "broad_nonnull_fdr": true,
+        "broad_synthetic_fdr": true,
+        "broad_null_fdr": true,
+        "adjusted_nonnull_fdr": true,
+        "adjusted_synthetic_fdr": true,
+        "adjusted_semisynthetic_fdr": true,
+        "adjusted_null_fdr": true,
+        "targeted_nonnull_fdr": true,
+        "targeted_synthetic_fdr": true,
+        "targeted_semisynthetic_fdr": true,
+        "targeted_null_fdr": true,
+        "broad_nonnull_retention": false,
+        "adjusted_synthetic_retention": true,
+        "adjusted_semisynthetic_retention": true,
+        "targeted_synthetic_retention": true,
+        "targeted_semisynthetic_retention": true,
+        "new_gain": true
+      },
+      "feasible": false,
+      "objective": 0.13545138888888889,
+      "baseline_objective": 0.1216666666666667,
+      "fallback_score": 0.062222488888888594,
+      "standard": {
+        "fdr": [
+          0.033012001887001874,
+          0.08635146661903625,
+          0.19518459278586228
+        ],
+        "tpr": [
+          0.21234666666666657,
+          0.3061,
+          0.39583333333333337
+        ]
+      },
+      "new_groups": {
+        "broad_nonnull": {
+          "fdr": [
+            0.008166666666666666,
+            0.021990476190476192,
+            0.05596666666666668
+          ],
+          "tpr": [
+            0.13463333333333333,
+            0.15889999999999999,
+            0.20125833333333337
+          ]
+        },
+        "broad_synthetic": {
+          "fdr": [
+            0.008166666666666666,
+            0.021990476190476192,
+            0.05596666666666668
+          ],
+          "tpr": [
+            0.13463333333333333,
+            0.15889999999999999,
+            0.20125833333333337
+          ]
+        },
+        "broad_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "tpr": null
+        },
+        "adjusted_nonnull": {
+          "fdr": [
+            0.014929971988795518,
+            0.037992530345471516,
+            0.12277809608691961
+          ],
+          "tpr": [
+            0.7684313725490197,
+            0.8295588235294116,
+            0.8900980392156863
+          ]
+        },
+        "adjusted_synthetic": {
+          "fdr": [
+            0.007261904761904762,
+            0.028267195767195774,
+            0.1262074615199615
+          ],
+          "tpr": [
+            0.6781944444444443,
+            0.7647916666666666,
+            0.846388888888889
+          ]
+        },
+        "adjusted_semisynthetic": {
+          "fdr": [
+            0.03333333333333333,
+            0.06133333333333334,
+            0.11454761904761905
+          ],
+          "tpr": [
+            0.985,
+            0.985,
+            0.9949999999999999
+          ]
+        },
+        "adjusted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.025
+          ],
+          "tpr": null
+        },
+        "targeted_nonnull": {
+          "fdr": [
+            0.013529411764705884,
+            0.03039915966386554,
+            0.09541555666555668
+          ],
+          "tpr": [
+            0.0820343137254902,
+            0.13122549019607843,
+            0.2060049019607843
+          ]
+        },
+        "targeted_synthetic": {
+          "fdr": [
+            0.0059722222222222225,
+            0.0166765873015873,
+            0.0862137052762053
+          ],
+          "tpr": [
+            0.08427083333333335,
+            0.13312500000000002,
+            0.2203125
+          ]
+        },
+        "targeted_semisynthetic": {
+          "fdr": [
+            0.03166666666666666,
+            0.06333333333333332,
+            0.11749999999999998
+          ],
+          "tpr": [
+            0.07666666666666667,
+            0.12666666666666668,
+            0.1716666666666667
+          ]
+        },
+        "targeted_null": {
+          "fdr": [
+            0.0,
+            0.025,
+            0.05
+          ],
+          "tpr": null
+        }
+      }
+    },
+    {
+      "epoch": 5,
+      "training_loss": 0.2172590818047797,
+      "checks": {
+        "standard_power": true,
+        "standard_fdr": true,
+        "broad_nonnull_fdr": true,
+        "broad_synthetic_fdr": true,
+        "broad_null_fdr": true,
+        "adjusted_nonnull_fdr": true,
+        "adjusted_synthetic_fdr": true,
+        "adjusted_semisynthetic_fdr": true,
+        "adjusted_null_fdr": true,
+        "targeted_nonnull_fdr": true,
+        "targeted_synthetic_fdr": true,
+        "targeted_semisynthetic_fdr": true,
+        "targeted_null_fdr": true,
+        "broad_nonnull_retention": true,
+        "adjusted_synthetic_retention": true,
+        "adjusted_semisynthetic_retention": true,
+        "targeted_synthetic_retention": true,
+        "targeted_semisynthetic_retention": true,
+        "new_gain": true
+      },
+      "feasible": true,
+      "objective": 0.16977430555555553,
+      "baseline_objective": 0.1216666666666667,
+      "fallback_score": 0.16977430555555553,
+      "standard": {
+        "fdr": [
+          0.04698672716172716,
+          0.09880452279843514,
+          0.20570129633205056
+        ],
+        "tpr": [
+          0.23634666666666654,
+          0.3279733333333335,
+          0.41380666666666654
+        ]
+      },
+      "new_groups": {
+        "broad_nonnull": {
+          "fdr": [
+            0.0123,
+            0.02783333333333333,
+            0.06947380952380952
+          ],
+          "tpr": [
+            0.14096666666666668,
+            0.17399166666666666,
+            0.22672500000000007
+          ]
+        },
+        "broad_synthetic": {
+          "fdr": [
+            0.0123,
+            0.02783333333333333,
+            0.06947380952380952
+          ],
+          "tpr": [
+            0.14096666666666668,
+            0.17399166666666666,
+            0.22672500000000007
+          ]
+        },
+        "broad_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.03333333333333333
+          ],
+          "tpr": null
+        },
+        "adjusted_nonnull": {
+          "fdr": [
+            0.014733893557422969,
+            0.04127100840336134,
+            0.13436953569306512
+          ],
+          "tpr": [
+            0.7969117647058823,
+            0.8442401960784314,
+            0.9016666666666666
+          ]
+        },
+        "adjusted_synthetic": {
+          "fdr": [
+            0.012539682539682538,
+            0.035203373015873014,
+            0.13842231842231842
+          ],
+          "tpr": [
+            0.7185416666666669,
+            0.7835069444444445,
+            0.8627777777777778
+          ]
+        },
+        "adjusted_semisynthetic": {
+          "fdr": [
+            0.02,
+            0.05583333333333333,
+            0.12464285714285712
+          ],
+          "tpr": [
+            0.985,
+            0.99,
+            0.9949999999999999
+          ]
+        },
+        "adjusted_null": {
+          "fdr": [
+            0.0,
+            0.025,
+            0.05
+          ],
+          "tpr": null
+        },
+        "targeted_nonnull": {
+          "fdr": [
+            0.017993697478991596,
+            0.0504750233426704,
+            0.12150328429740194
+          ],
+          "tpr": [
+            0.1122549019607843,
+            0.16367647058823534,
+            0.24272058823529405
+          ]
+        },
+        "targeted_synthetic": {
+          "fdr": [
+            0.009518849206349206,
+            0.03511739417989418,
+            0.11164354164354162
+          ],
+          "tpr": [
+            0.11249999999999999,
+            0.16937500000000003,
+            0.25010416666666657
+          ]
+        },
+        "targeted_semisynthetic": {
+          "fdr": [
+            0.03833333333333333,
+            0.08733333333333332,
+            0.14516666666666667
+          ],
+          "tpr": [
+            0.11166666666666666,
+            0.15,
+            0.225
+          ]
+        },
+        "targeted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.07500000000000001
+          ],
+          "tpr": null
+        }
+      }
+    },
+    {
+      "epoch": 6,
+      "training_loss": 0.2158785653176723,
+      "checks": {
+        "standard_power": false,
+        "standard_fdr": true,
+        "broad_nonnull_fdr": true,
+        "broad_synthetic_fdr": true,
+        "broad_null_fdr": true,
+        "adjusted_nonnull_fdr": true,
+        "adjusted_synthetic_fdr": true,
+        "adjusted_semisynthetic_fdr": true,
+        "adjusted_null_fdr": true,
+        "targeted_nonnull_fdr": true,
+        "targeted_synthetic_fdr": true,
+        "targeted_semisynthetic_fdr": true,
+        "targeted_null_fdr": true,
+        "broad_nonnull_retention": true,
+        "adjusted_synthetic_retention": true,
+        "adjusted_semisynthetic_retention": true,
+        "targeted_synthetic_retention": true,
+        "targeted_semisynthetic_retention": true,
+        "new_gain": true
+      },
+      "feasible": false,
+      "objective": 0.14286458333333332,
+      "baseline_objective": 0.1216666666666667,
+      "fallback_score": 0.07326618333333332,
+      "standard": {
+        "fdr": [
+          0.035111685536685526,
+          0.07609946213057665,
+          0.18314690600276812
+        ],
+        "tpr": [
+          0.2100733333333333,
+          0.30346666666666666,
+          0.39332
+        ]
+      },
+      "new_groups": {
+        "broad_nonnull": {
+          "fdr": [
+            0.009166666666666665,
+            0.022957142857142857,
+            0.04670952380952381
+          ],
+          "tpr": [
+            0.13013333333333332,
+            0.15899166666666667,
+            0.2078000000000001
+          ]
+        },
+        "broad_synthetic": {
+          "fdr": [
+            0.009166666666666665,
+            0.022957142857142857,
+            0.04670952380952381
+          ],
+          "tpr": [
+            0.13013333333333332,
+            0.15899166666666667,
+            0.2078000000000001
+          ]
+        },
+        "broad_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.016666666666666666
+          ],
+          "tpr": null
+        },
+        "adjusted_nonnull": {
+          "fdr": [
+            0.009283380018674138,
+            0.031938608776844075,
+            0.11803200067905951
+          ],
+          "tpr": [
+            0.7812009803921568,
+            0.8367647058823529,
+            0.891593137254902
+          ]
+        },
+        "adjusted_synthetic": {
+          "fdr": [
+            0.009332010582010582,
+            0.03135747354497355,
+            0.12985088985088986
+          ],
+          "tpr": [
+            0.7025347222222224,
+            0.7749999999999999,
+            0.8485069444444444
+          ]
+        },
+        "adjusted_semisynthetic": {
+          "fdr": [
+            0.009166666666666667,
+            0.03333333333333333,
+            0.08966666666666666
+          ],
+          "tpr": [
+            0.97,
+            0.985,
+            0.9949999999999999
+          ]
+        },
+        "adjusted_null": {
+          "fdr": [
+            0.0,
+            0.025,
+            0.025
+          ],
+          "tpr": null
+        },
+        "targeted_nonnull": {
+          "fdr": [
+            0.006666666666666665,
+            0.03615196078431372,
+            0.09907717282717285
+          ],
+          "tpr": [
+            0.09149509803921566,
+            0.13948529411764704,
+            0.21419117647058825
+          ]
+        },
+        "targeted_synthetic": {
+          "fdr": [
+            0.0045833333333333325,
+            0.024826388888888887,
+            0.09452599483849485
+          ],
+          "tpr": [
+            0.0948958333333333,
+            0.1434375,
+            0.23052083333333337
+          ]
+        },
+        "targeted_semisynthetic": {
+          "fdr": [
+            0.011666666666666667,
+            0.06333333333333332,
+            0.11000000000000001
+          ],
+          "tpr": [
+            0.08333333333333334,
+            0.13,
+            0.175
+          ]
+        },
+        "targeted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.05
+          ],
+          "tpr": null
+        }
+      }
+    },
+    {
+      "epoch": 7,
+      "training_loss": 0.21414647343395696,
+      "checks": {
+        "standard_power": false,
+        "standard_fdr": true,
+        "broad_nonnull_fdr": true,
+        "broad_synthetic_fdr": true,
+        "broad_null_fdr": true,
+        "adjusted_nonnull_fdr": true,
+        "adjusted_synthetic_fdr": true,
+        "adjusted_semisynthetic_fdr": true,
+        "adjusted_null_fdr": true,
+        "targeted_nonnull_fdr": true,
+        "targeted_synthetic_fdr": true,
+        "targeted_semisynthetic_fdr": true,
+        "targeted_null_fdr": true,
+        "broad_nonnull_retention": true,
+        "adjusted_synthetic_retention": true,
+        "adjusted_semisynthetic_retention": true,
+        "targeted_synthetic_retention": true,
+        "targeted_semisynthetic_retention": true,
+        "new_gain": true
+      },
+      "feasible": false,
+      "objective": 0.13630208333333335,
+      "baseline_objective": 0.1216666666666667,
+      "fallback_score": 0.02252608333333367,
+      "standard": {
+        "fdr": [
+          0.025031812631812634,
+          0.07454300372829784,
+          0.16733305392749664
+        ],
+        "tpr": [
+          0.20182,
+          0.29727333333333333,
+          0.3914333333333333
+        ]
+      },
+      "new_groups": {
+        "broad_nonnull": {
+          "fdr": [
+            0.006499999999999999,
+            0.019457142857142857,
+            0.049256349206349206
+          ],
+          "tpr": [
+            0.13290000000000002,
+            0.1600333333333333,
+            0.21285
+          ]
+        },
+        "broad_synthetic": {
+          "fdr": [
+            0.006499999999999999,
+            0.019457142857142857,
+            0.049256349206349206
+          ],
+          "tpr": [
+            0.13290000000000002,
+            0.1600333333333333,
+            0.21285
+          ]
+        },
+        "broad_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.03333333333333333
+          ],
+          "tpr": null
+        },
+        "adjusted_nonnull": {
+          "fdr": [
+            0.010322128851540616,
+            0.03332516339869282,
+            0.11410459638400815
+          ],
+          "tpr": [
+            0.7616176470588234,
+            0.8161274509803921,
+            0.8725490196078431
+          ]
+        },
+        "adjusted_synthetic": {
+          "fdr": [
+            0.0062896825396825395,
+            0.025474537037037035,
+            0.11468389249639249
+          ],
+          "tpr": [
+            0.6747916666666667,
+            0.7478472222222222,
+            0.8215277777777779
+          ]
+        },
+        "adjusted_semisynthetic": {
+          "fdr": [
+            0.02,
+            0.05216666666666666,
+            0.1127142857142857
+          ],
+          "tpr": [
+            0.97,
+            0.9799999999999999,
+            0.9949999999999999
+          ]
+        },
+        "adjusted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.025
+          ],
+          "tpr": null
+        },
+        "targeted_nonnull": {
+          "fdr": [
+            0.008627450980392156,
+            0.03657563025210084,
+            0.07788828818240584
+          ],
+          "tpr": [
+            0.0813235294117647,
+            0.12524509803921569,
+            0.19571078431372546
+          ]
+        },
+        "targeted_synthetic": {
+          "fdr": [
+            0.0025,
+            0.0160515873015873,
+            0.04898757492507492
+          ],
+          "tpr": [
+            0.075625,
+            0.11979166666666669,
+            0.19739583333333333
+          ]
+        },
+        "targeted_semisynthetic": {
+          "fdr": [
+            0.023333333333333334,
+            0.08583333333333333,
+            0.14725000000000002
+          ],
+          "tpr": [
+            0.095,
+            0.13833333333333334,
+            0.1916666666666667
+          ]
+        },
+        "targeted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.025
+          ],
+          "tpr": null
+        }
+      }
+    },
+    {
+      "epoch": 8,
+      "training_loss": 0.2128997438270251,
+      "checks": {
+        "standard_power": false,
+        "standard_fdr": true,
+        "broad_nonnull_fdr": true,
+        "broad_synthetic_fdr": true,
+        "broad_null_fdr": true,
+        "adjusted_nonnull_fdr": true,
+        "adjusted_synthetic_fdr": true,
+        "adjusted_semisynthetic_fdr": true,
+        "adjusted_null_fdr": true,
+        "targeted_nonnull_fdr": true,
+        "targeted_synthetic_fdr": true,
+        "targeted_semisynthetic_fdr": true,
+        "targeted_null_fdr": true,
+        "broad_nonnull_retention": false,
+        "adjusted_synthetic_retention": true,
+        "adjusted_semisynthetic_retention": true,
+        "targeted_synthetic_retention": true,
+        "targeted_semisynthetic_retention": true,
+        "new_gain": true
+      },
+      "feasible": false,
+      "objective": 0.13171875000000002,
+      "baseline_objective": 0.1216666666666667,
+      "fallback_score": -0.0027097499999994834,
+      "standard": {
+        "fdr": [
+          0.03233602475955417,
+          0.07025144213371766,
+          0.15977494648746446
+        ],
+        "tpr": [
+          0.20318000000000003,
+          0.2961866666666666,
+          0.39027333333333336
+        ]
+      },
+      "new_groups": {
+        "broad_nonnull": {
+          "fdr": [
+            0.007899999999999999,
+            0.018423809523809526,
+            0.046659523809523804
+          ],
+          "tpr": [
+            0.12616666666666668,
+            0.14715833333333334,
+            0.2044083333333334
+          ]
+        },
+        "broad_synthetic": {
+          "fdr": [
+            0.007899999999999999,
+            0.018423809523809526,
+            0.046659523809523804
+          ],
+          "tpr": [
+            0.12616666666666668,
+            0.14715833333333334,
+            0.2044083333333334
+          ]
+        },
+        "broad_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "tpr": null
+        },
+        "adjusted_nonnull": {
+          "fdr": [
+            0.009341736694677872,
+            0.027754435107376286,
+            0.1013116458704694
+          ],
+          "tpr": [
+            0.7680147058823529,
+            0.815955882352941,
+            0.8713725490196079
+          ]
+        },
+        "adjusted_synthetic": {
+          "fdr": [
+            0.008373015873015874,
+            0.02501322751322751,
+            0.11179864117364118
+          ],
+          "tpr": [
+            0.6817708333333332,
+            0.7476041666666666,
+            0.8198611111111113
+          ]
+        },
+        "adjusted_semisynthetic": {
+          "fdr": [
+            0.011666666666666667,
+            0.034333333333333334,
+            0.07614285714285714
+          ],
+          "tpr": [
+            0.975,
+            0.9799999999999999,
+            0.9949999999999999
+          ]
+        },
+        "adjusted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.025
+          ],
+          "tpr": null
+        },
+        "targeted_nonnull": {
+          "fdr": [
+            0.009215686274509804,
+            0.03150560224089635,
+            0.0758496405555229
+          ],
+          "tpr": [
+            0.08144607843137253,
+            0.12220588235294118,
+            0.19156862745098038
+          ]
+        },
+        "targeted_synthetic": {
+          "fdr": [
+            0.0033333333333333335,
+            0.01720238095238095,
+            0.05882270507270507
+          ],
+          "tpr": [
+            0.07927083333333333,
+            0.11895833333333335,
+            0.19708333333333336
+          ]
+        },
+        "targeted_semisynthetic": {
+          "fdr": [
+            0.023333333333333334,
+            0.06583333333333333,
+            0.1167142857142857
+          ],
+          "tpr": [
+            0.08666666666666666,
+            0.13000000000000003,
+            0.17833333333333337
+          ]
+        },
+        "targeted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.025
+          ],
+          "tpr": null
+        }
+      }
+    },
+    {
+      "epoch": 9,
+      "training_loss": 0.21190441351411682,
+      "checks": {
+        "standard_power": false,
+        "standard_fdr": true,
+        "broad_nonnull_fdr": true,
+        "broad_synthetic_fdr": true,
+        "broad_null_fdr": true,
+        "adjusted_nonnull_fdr": true,
+        "adjusted_synthetic_fdr": true,
+        "adjusted_semisynthetic_fdr": true,
+        "adjusted_null_fdr": true,
+        "targeted_nonnull_fdr": true,
+        "targeted_synthetic_fdr": true,
+        "targeted_semisynthetic_fdr": true,
+        "targeted_null_fdr": true,
+        "broad_nonnull_retention": false,
+        "adjusted_synthetic_retention": true,
+        "adjusted_semisynthetic_retention": true,
+        "targeted_synthetic_retention": true,
+        "targeted_semisynthetic_retention": false,
+        "new_gain": false
+      },
+      "feasible": false,
+      "objective": 0.12460069444444444,
+      "baseline_objective": 0.1216666666666667,
+      "fallback_score": -0.06634780555555514,
+      "standard": {
+        "fdr": [
+          0.025346964146964152,
+          0.06686703459079621,
+          0.16452959259963498
+        ],
+        "tpr": [
+          0.20056666666666664,
+          0.29161333333333334,
+          0.38278
+        ]
+      },
+      "new_groups": {
+        "broad_nonnull": {
+          "fdr": [
+            0.007166666666666667,
+            0.016957142857142858,
+            0.054967460317460325
+          ],
+          "tpr": [
+            0.13036666666666666,
+            0.15686666666666668,
+            0.20487500000000003
+          ]
+        },
+        "broad_synthetic": {
+          "fdr": [
+            0.007166666666666667,
+            0.016957142857142858,
+            0.054967460317460325
+          ],
+          "tpr": [
+            0.13036666666666666,
+            0.15686666666666668,
+            0.20487500000000003
+          ]
+        },
+        "broad_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.016666666666666666
+          ],
+          "tpr": null
+        },
+        "adjusted_nonnull": {
+          "fdr": [
+            0.009556489262371615,
+            0.03427754435107376,
+            0.11627259994907053
+          ],
+          "tpr": [
+            0.7795588235294119,
+            0.8323529411764709,
+            0.8893872549019608
+          ]
+        },
+        "adjusted_synthetic": {
+          "fdr": [
+            0.010760582010582012,
+            0.0360598544973545,
+            0.13124729437229435
+          ],
+          "tpr": [
+            0.7022916666666669,
+            0.7729166666666668,
+            0.8453819444444445
+          ]
+        },
+        "adjusted_semisynthetic": {
+          "fdr": [
+            0.006666666666666666,
+            0.03,
+            0.08033333333333334
+          ],
+          "tpr": [
+            0.9649999999999999,
+            0.975,
+            0.9949999999999999
+          ]
+        },
+        "adjusted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.025
+          ],
+          "tpr": null
+        },
+        "targeted_nonnull": {
+          "fdr": [
+            0.0069117647058823525,
+            0.028095238095238093,
+            0.0742577030812325
+          ],
+          "tpr": [
+            0.0772549019607843,
+            0.11816176470588236,
+            0.19024509803921566
+          ]
+        },
+        "targeted_synthetic": {
+          "fdr": [
+            0.006319444444444444,
+            0.015496031746031745,
+            0.06392857142857142
+          ],
+          "tpr": [
+            0.0775,
+            0.1215625,
+            0.20354166666666665
+          ]
+        },
+        "targeted_semisynthetic": {
+          "fdr": [
+            0.008333333333333335,
+            0.058333333333333334,
+            0.09904761904761902
+          ],
+          "tpr": [
+            0.07666666666666667,
+            0.11000000000000001,
+            0.15833333333333335
+          ]
+        },
+        "targeted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.025
+          ],
+          "tpr": null
+        }
+      }
+    },
+    {
+      "epoch": 10,
+      "training_loss": 0.21075262088105334,
+      "checks": {
+        "standard_power": false,
+        "standard_fdr": true,
+        "broad_nonnull_fdr": true,
+        "broad_synthetic_fdr": true,
+        "broad_null_fdr": true,
+        "adjusted_nonnull_fdr": true,
+        "adjusted_synthetic_fdr": true,
+        "adjusted_semisynthetic_fdr": true,
+        "adjusted_null_fdr": true,
+        "targeted_nonnull_fdr": true,
+        "targeted_synthetic_fdr": true,
+        "targeted_semisynthetic_fdr": true,
+        "targeted_null_fdr": true,
+        "broad_nonnull_retention": true,
+        "adjusted_synthetic_retention": true,
+        "adjusted_semisynthetic_retention": true,
+        "targeted_synthetic_retention": true,
+        "targeted_semisynthetic_retention": true,
+        "new_gain": true
+      },
+      "feasible": false,
+      "objective": 0.13928819444444446,
+      "baseline_objective": 0.1216666666666667,
+      "fallback_score": 0.08000179444444408,
+      "standard": {
+        "fdr": [
+          0.03440550838050838,
+          0.07423827985739749,
+          0.18192320632611186
+        ],
+        "tpr": [
+          0.2127199999999999,
+          0.30440666666666666,
+          0.3953400000000001
+        ]
+      },
+      "new_groups": {
+        "broad_nonnull": {
+          "fdr": [
+            0.006833333333333333,
+            0.020457142857142858,
+            0.05267777777777778
+          ],
+          "tpr": [
+            0.1305666666666667,
+            0.15286666666666662,
+            0.21107500000000004
+          ]
+        },
+        "broad_synthetic": {
+          "fdr": [
+            0.006833333333333333,
+            0.020457142857142858,
+            0.05267777777777778
+          ],
+          "tpr": [
+            0.1305666666666667,
+            0.15286666666666662,
+            0.21107500000000004
+          ]
+        },
+        "broad_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.08333333333333333
+          ],
+          "tpr": null
+        },
+        "adjusted_nonnull": {
+          "fdr": [
+            0.009201680672268907,
+            0.031322362278244635,
+            0.10732938629997453
+          ],
+          "tpr": [
+            0.7741666666666669,
+            0.8216911764705882,
+            0.8809068627450979
+          ]
+        },
+        "adjusted_synthetic": {
+          "fdr": [
+            0.009563492063492064,
+            0.02944279100529101,
+            0.11753607503607504
+          ],
+          "tpr": [
+            0.688402777777778,
+            0.7557291666666668,
+            0.8333680555555554
+          ]
+        },
+        "adjusted_semisynthetic": {
+          "fdr": [
+            0.008333333333333335,
+            0.03583333333333333,
+            0.08283333333333333
+          ],
+          "tpr": [
+            0.9799999999999999,
+            0.9799999999999999,
+            0.9949999999999999
+          ]
+        },
+        "adjusted_null": {
+          "fdr": [
+            0.0,
+            0.025,
+            0.025
+          ],
+          "tpr": null
+        },
+        "targeted_nonnull": {
+          "fdr": [
+            0.010588235294117647,
+            0.03126750700280112,
+            0.08554234980705569
+          ],
+          "tpr": [
+            0.08227941176470586,
+            0.13213235294117645,
+            0.2025735294117647
+          ]
+        },
+        "targeted_synthetic": {
+          "fdr": [
+            0.005277777777777778,
+            0.0158234126984127,
+            0.06174055111555112
+          ],
+          "tpr": [
+            0.08114583333333333,
+            0.12677083333333336,
+            0.20781250000000004
+          ]
+        },
+        "targeted_semisynthetic": {
+          "fdr": [
+            0.023333333333333334,
+            0.06833333333333333,
+            0.14266666666666666
+          ],
+          "tpr": [
+            0.08499999999999999,
+            0.145,
+            0.19000000000000003
+          ]
+        },
+        "targeted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.025
+          ],
+          "tpr": null
+        }
+      }
+    },
+    {
+      "epoch": 11,
+      "training_loss": 0.20967596374503622,
+      "checks": {
+        "standard_power": false,
+        "standard_fdr": true,
+        "broad_nonnull_fdr": true,
+        "broad_synthetic_fdr": true,
+        "broad_null_fdr": true,
+        "adjusted_nonnull_fdr": true,
+        "adjusted_synthetic_fdr": true,
+        "adjusted_semisynthetic_fdr": true,
+        "adjusted_null_fdr": true,
+        "targeted_nonnull_fdr": true,
+        "targeted_synthetic_fdr": true,
+        "targeted_semisynthetic_fdr": true,
+        "targeted_null_fdr": true,
+        "broad_nonnull_retention": true,
+        "adjusted_synthetic_retention": true,
+        "adjusted_semisynthetic_retention": true,
+        "targeted_synthetic_retention": true,
+        "targeted_semisynthetic_retention": true,
+        "new_gain": true
+      },
+      "feasible": false,
+      "objective": 0.1426215277777778,
+      "baseline_objective": 0.1216666666666667,
+      "fallback_score": 0.0865551277777778,
+      "standard": {
+        "fdr": [
+          0.03161832056832056,
+          0.07590686094091666,
+          0.181822665885288
+        ],
+        "tpr": [
+          0.21379333333333336,
+          0.3058866666666667,
+          0.39516000000000007
+        ]
+      },
+      "new_groups": {
+        "broad_nonnull": {
+          "fdr": [
+            0.007166666666666667,
+            0.018623809523809525,
+            0.04960555555555556
+          ],
+          "tpr": [
+            0.12986666666666666,
+            0.1545,
+            0.20945
+          ]
+        },
+        "broad_synthetic": {
+          "fdr": [
+            0.007166666666666667,
+            0.018623809523809525,
+            0.04960555555555556
+          ],
+          "tpr": [
+            0.12986666666666666,
+            0.1545,
+            0.20945
+          ]
+        },
+        "broad_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.06666666666666667
+          ],
+          "tpr": null
+        },
+        "adjusted_nonnull": {
+          "fdr": [
+            0.007100840336134454,
+            0.027270074696545285,
+            0.09973686444274679
+          ],
+          "tpr": [
+            0.7695343137254902,
+            0.8227941176470588,
+            0.8800490196078431
+          ]
+        },
+        "adjusted_synthetic": {
+          "fdr": [
+            0.006587301587301587,
+            0.02397982804232804,
+            0.11005381192881192
+          ],
+          "tpr": [
+            0.6860069444444443,
+            0.7572916666666667,
+            0.8321527777777779
+          ]
+        },
+        "adjusted_semisynthetic": {
+          "fdr": [
+            0.008333333333333335,
+            0.035166666666666666,
+            0.07497619047619047
+          ],
+          "tpr": [
+            0.97,
+            0.9799999999999999,
+            0.9949999999999999
+          ]
+        },
+        "adjusted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.025
+          ],
+          "tpr": null
+        },
+        "targeted_nonnull": {
+          "fdr": [
+            0.010588235294117647,
+            0.031141456582633054,
+            0.08780075316840023
+          ],
+          "tpr": [
+            0.08524509803921569,
+            0.13664215686274508,
+            0.20372549019607844
+          ]
+        },
+        "targeted_synthetic": {
+          "fdr": [
+            0.005277777777777778,
+            0.018839285714285715,
+            0.06674551143301145
+          ],
+          "tpr": [
+            0.08187500000000002,
+            0.12968750000000004,
+            0.21083333333333334
+          ]
+        },
+        "targeted_semisynthetic": {
+          "fdr": [
+            0.023333333333333334,
+            0.06066666666666666,
+            0.13833333333333334
+          ],
+          "tpr": [
+            0.09333333333333334,
+            0.15333333333333335,
+            0.1866666666666667
+          ]
+        },
+        "targeted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.05
+          ],
+          "tpr": null
+        }
+      }
+    },
+    {
+      "epoch": 12,
+      "training_loss": 0.2091140851569051,
+      "checks": {
+        "standard_power": false,
+        "standard_fdr": true,
+        "broad_nonnull_fdr": true,
+        "broad_synthetic_fdr": true,
+        "broad_null_fdr": true,
+        "adjusted_nonnull_fdr": true,
+        "adjusted_synthetic_fdr": true,
+        "adjusted_semisynthetic_fdr": true,
+        "adjusted_null_fdr": true,
+        "targeted_nonnull_fdr": true,
+        "targeted_synthetic_fdr": true,
+        "targeted_semisynthetic_fdr": true,
+        "targeted_null_fdr": true,
+        "broad_nonnull_retention": true,
+        "adjusted_synthetic_retention": true,
+        "adjusted_semisynthetic_retention": true,
+        "targeted_synthetic_retention": true,
+        "targeted_semisynthetic_retention": true,
+        "new_gain": true
+      },
+      "feasible": false,
+      "objective": 0.16102430555555555,
+      "baseline_objective": 0.1216666666666667,
+      "fallback_score": 0.1407979055555552,
+      "standard": {
+        "fdr": [
+          0.040139626713156115,
+          0.08052016561010367,
+          0.18408613856987993
+        ],
+        "tpr": [
+          0.2257399999999999,
+          0.31562,
+          0.4009133333333333
+        ]
+      },
+      "new_groups": {
+        "broad_nonnull": {
+          "fdr": [
+            0.014166666666666666,
+            0.027890476190476195,
+            0.06962566137566138
+          ],
+          "tpr": [
+            0.13853333333333334,
+            0.1713916666666667,
+            0.2280166666666667
+          ]
+        },
+        "broad_synthetic": {
+          "fdr": [
+            0.014166666666666666,
+            0.027890476190476195,
+            0.06962566137566138
+          ],
+          "tpr": [
+            0.13853333333333334,
+            0.1713916666666667,
+            0.2280166666666667
+          ]
+        },
+        "broad_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.03333333333333333
+          ],
+          "tpr": null
+        },
+        "adjusted_nonnull": {
+          "fdr": [
+            0.018064892623716154,
+            0.04469887955182074,
+            0.13215176979882862
+          ],
+          "tpr": [
+            0.8074754901960786,
+            0.8525490196078431,
+            0.9016666666666666
+          ]
+        },
+        "adjusted_synthetic": {
+          "fdr": [
+            0.014828042328042329,
+            0.04124007936507937,
+            0.14157016594516594
+          ],
+          "tpr": [
+            0.735590277777778,
+            0.7973611111111111,
+            0.8627777777777778
+          ]
+        },
+        "adjusted_semisynthetic": {
+          "fdr": [
+            0.02583333333333333,
+            0.05299999999999999,
+            0.10954761904761905
+          ],
+          "tpr": [
+            0.9799999999999999,
+            0.985,
+            0.9949999999999999
+          ]
+        },
+        "adjusted_null": {
+          "fdr": [
+            0.025,
+            0.025,
+            0.05
+          ],
+          "tpr": null
+        },
+        "targeted_nonnull": {
+          "fdr": [
+            0.017160364145658264,
+            0.04464169000933708,
+            0.12090120663650078
+          ],
+          "tpr": [
+            0.10764705882352942,
+            0.1573774509803922,
+            0.2309803921568627
+          ]
+        },
+        "targeted_synthetic": {
+          "fdr": [
+            0.012504960317460317,
+            0.038936838624338624,
+            0.11183226495726493
+          ],
+          "tpr": [
+            0.10666666666666669,
+            0.15906250000000002,
+            0.24874999999999994
+          ]
+        },
+        "targeted_semisynthetic": {
+          "fdr": [
+            0.028333333333333332,
+            0.05833333333333333,
+            0.14266666666666666
+          ],
+          "tpr": [
+            0.10999999999999999,
+            0.15333333333333335,
+            0.18833333333333335
+          ]
+        },
+        "targeted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.1
+          ],
+          "tpr": null
+        }
+      }
+    },
+    {
+      "epoch": 13,
+      "training_loss": 0.2079055268676023,
+      "checks": {
+        "standard_power": false,
+        "standard_fdr": true,
+        "broad_nonnull_fdr": true,
+        "broad_synthetic_fdr": true,
+        "broad_null_fdr": true,
+        "adjusted_nonnull_fdr": true,
+        "adjusted_synthetic_fdr": true,
+        "adjusted_semisynthetic_fdr": true,
+        "adjusted_null_fdr": true,
+        "targeted_nonnull_fdr": true,
+        "targeted_synthetic_fdr": true,
+        "targeted_semisynthetic_fdr": true,
+        "targeted_null_fdr": true,
+        "broad_nonnull_retention": false,
+        "adjusted_synthetic_retention": true,
+        "adjusted_semisynthetic_retention": true,
+        "targeted_synthetic_retention": true,
+        "targeted_semisynthetic_retention": true,
+        "new_gain": true
+      },
+      "feasible": false,
+      "objective": 0.13803819444444446,
+      "baseline_objective": 0.1216666666666667,
+      "fallback_score": -0.007650305555554876,
+      "standard": {
+        "fdr": [
+          0.02906529859029859,
+          0.07134865281777046,
+          0.1614559499803826
+        ],
+        "tpr": [
+          0.2040466666666666,
+          0.29302000000000006,
+          0.3863133333333334
+        ]
+      },
+      "new_groups": {
+        "broad_nonnull": {
+          "fdr": [
+            0.0115,
+            0.02165714285714286,
+            0.05360317460317461
+          ],
+          "tpr": [
+            0.12933333333333336,
+            0.15373333333333336,
+            0.2020416666666667
+          ]
+        },
+        "broad_synthetic": {
+          "fdr": [
+            0.0115,
+            0.02165714285714286,
+            0.05360317460317461
+          ],
+          "tpr": [
+            0.12933333333333336,
+            0.15373333333333336,
+            0.2020416666666667
+          ]
+        },
+        "broad_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "tpr": null
+        },
+        "adjusted_nonnull": {
+          "fdr": [
+            0.008839869281045753,
+            0.03387605042016807,
+            0.10272536287242168
+          ],
+          "tpr": [
+            0.7747058823529412,
+            0.8200980392156865,
+            0.8772058823529412
+          ]
+        },
+        "adjusted_synthetic": {
+          "fdr": [
+            0.00800925925925926,
+            0.028199404761904762,
+            0.11177759740259736
+          ],
+          "tpr": [
+            0.6891666666666668,
+            0.7534722222222223,
+            0.828125
+          ]
+        },
+        "adjusted_semisynthetic": {
+          "fdr": [
+            0.010833333333333334,
+            0.0475,
+            0.08099999999999999
+          ],
+          "tpr": [
+            0.9799999999999999,
+            0.9799999999999999,
+            0.9949999999999999
+          ]
+        },
+        "adjusted_null": {
+          "fdr": [
+            0.0,
+            0.025,
+            0.025
+          ],
+          "tpr": null
+        },
+        "targeted_nonnull": {
+          "fdr": [
+            0.009215686274509804,
+            0.02957282913165266,
+            0.0823441346235464
+          ],
+          "tpr": [
+            0.08399509803921569,
+            0.1288480392156863,
+            0.19198529411764703
+          ]
+        },
+        "targeted_synthetic": {
+          "fdr": [
+            0.003333333333333334,
+            0.017589285714285714,
+            0.06137641293891294
+          ],
+          "tpr": [
+            0.07802083333333333,
+            0.11864583333333334,
+            0.19489583333333335
+          ]
+        },
+        "targeted_semisynthetic": {
+          "fdr": [
+            0.023333333333333334,
+            0.05833333333333333,
+            0.13266666666666665
+          ],
+          "tpr": [
+            0.09833333333333333,
+            0.15333333333333335,
+            0.185
+          ]
+        },
+        "targeted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.025
+          ],
+          "tpr": null
+        }
+      }
+    },
+    {
+      "epoch": 14,
+      "training_loss": 0.20741048123319383,
+      "checks": {
+        "standard_power": false,
+        "standard_fdr": true,
+        "broad_nonnull_fdr": true,
+        "broad_synthetic_fdr": true,
+        "broad_null_fdr": true,
+        "adjusted_nonnull_fdr": true,
+        "adjusted_synthetic_fdr": true,
+        "adjusted_semisynthetic_fdr": true,
+        "adjusted_null_fdr": true,
+        "targeted_nonnull_fdr": true,
+        "targeted_synthetic_fdr": true,
+        "targeted_semisynthetic_fdr": true,
+        "targeted_null_fdr": true,
+        "broad_nonnull_retention": false,
+        "adjusted_synthetic_retention": true,
+        "adjusted_semisynthetic_retention": true,
+        "targeted_synthetic_retention": false,
+        "targeted_semisynthetic_retention": false,
+        "new_gain": false
+      },
+      "feasible": false,
+      "objective": 0.12388888888888888,
+      "baseline_objective": 0.1216666666666667,
+      "fallback_score": -0.11211961111111071,
+      "standard": {
+        "fdr": [
+          0.02503619991119992,
+          0.06872771966595498,
+          0.16570683943447706
+        ],
+        "tpr": [
+          0.20403333333333326,
+          0.29292,
+          0.38329333333333343
+        ]
+      },
+      "new_groups": {
+        "broad_nonnull": {
+          "fdr": [
+            0.008233333333333332,
+            0.017623809523809524,
+            0.04752777777777778
+          ],
+          "tpr": [
+            0.1261,
+            0.14639999999999997,
+            0.19145000000000004
+          ]
+        },
+        "broad_synthetic": {
+          "fdr": [
+            0.008233333333333332,
+            0.017623809523809524,
+            0.04752777777777778
+          ],
+          "tpr": [
+            0.1261,
+            0.14639999999999997,
+            0.19145000000000004
+          ]
+        },
+        "broad_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.016666666666666666
+          ],
+          "tpr": null
+        },
+        "adjusted_nonnull": {
+          "fdr": [
+            0.008174603174603175,
+            0.025548552754435107,
+            0.09882130124777182
+          ],
+          "tpr": [
+            0.7670098039215686,
+            0.8162745098039215,
+            0.873921568627451
+          ]
+        },
+        "adjusted_synthetic": {
+          "fdr": [
+            0.008108465608465608,
+            0.022235449735449737,
+            0.11111787518037515
+          ],
+          "tpr": [
+            0.6824305555555555,
+            0.7480555555555554,
+            0.8234722222222222
+          ]
+        },
+        "adjusted_semisynthetic": {
+          "fdr": [
+            0.008333333333333335,
+            0.033499999999999995,
+            0.06930952380952381
+          ],
+          "tpr": [
+            0.97,
+            0.9799999999999999,
+            0.9949999999999999
+          ]
+        },
+        "adjusted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.025
+          ],
+          "tpr": null
+        },
+        "targeted_nonnull": {
+          "fdr": [
+            0.01019607843137255,
+            0.02106442577030812,
+            0.0657673372379255
+          ],
+          "tpr": [
+            0.07644607843137254,
+            0.11551470588235291,
+            0.1803921568627451
+          ]
+        },
+        "targeted_synthetic": {
+          "fdr": [
+            0.004722222222222222,
+            0.014285714285714284,
+            0.05584400553150553
+          ],
+          "tpr": [
+            0.0721875,
+            0.11156249999999997,
+            0.18958333333333333
+          ]
+        },
+        "targeted_semisynthetic": {
+          "fdr": [
+            0.023333333333333334,
+            0.03733333333333333,
+            0.08958333333333333
+          ],
+          "tpr": [
+            0.08666666666666666,
+            0.125,
+            0.15833333333333335
+          ]
+        },
+        "targeted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.05
+          ],
+          "tpr": null
+        }
+      }
+    },
+    {
+      "epoch": 15,
+      "training_loss": 0.20671727351108138,
+      "checks": {
+        "standard_power": false,
+        "standard_fdr": true,
+        "broad_nonnull_fdr": true,
+        "broad_synthetic_fdr": true,
+        "broad_null_fdr": true,
+        "adjusted_nonnull_fdr": true,
+        "adjusted_synthetic_fdr": true,
+        "adjusted_semisynthetic_fdr": true,
+        "adjusted_null_fdr": true,
+        "targeted_nonnull_fdr": true,
+        "targeted_synthetic_fdr": true,
+        "targeted_semisynthetic_fdr": true,
+        "targeted_null_fdr": true,
+        "broad_nonnull_retention": true,
+        "adjusted_synthetic_retention": true,
+        "adjusted_semisynthetic_retention": true,
+        "targeted_synthetic_retention": true,
+        "targeted_semisynthetic_retention": true,
+        "new_gain": true
+      },
+      "feasible": false,
+      "objective": 0.15447916666666667,
+      "baseline_objective": 0.1216666666666667,
+      "fallback_score": 0.11825276666666665,
+      "standard": {
+        "fdr": [
+          0.03775626367096955,
+          0.08015655895532055,
+          0.18223869254753755
+        ],
+        "tpr": [
+          0.2204066666666667,
+          0.311,
+          0.39783333333333326
+        ]
+      },
+      "new_groups": {
+        "broad_nonnull": {
+          "fdr": [
+            0.011966666666666667,
+            0.023147619047619052,
+            0.05964603174603175
+          ],
+          "tpr": [
+            0.13363333333333333,
+            0.15836666666666666,
+            0.20944166666666666
+          ]
+        },
+        "broad_synthetic": {
+          "fdr": [
+            0.011966666666666667,
+            0.023147619047619052,
+            0.05964603174603175
+          ],
+          "tpr": [
+            0.13363333333333333,
+            0.15836666666666666,
+            0.20944166666666666
+          ]
+        },
+        "broad_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.08333333333333333
+          ],
+          "tpr": null
+        },
+        "adjusted_nonnull": {
+          "fdr": [
+            0.010374649859943977,
+            0.03676353874883287,
+            0.10912624140565318
+          ],
+          "tpr": [
+            0.7871568627450981,
+            0.833014705882353,
+            0.8890196078431373
+          ]
+        },
+        "adjusted_synthetic": {
+          "fdr": [
+            0.011225198412698414,
+            0.03437334656084656,
+            0.12556773088023088
+          ],
+          "tpr": [
+            0.7109722222222223,
+            0.7717708333333334,
+            0.8448611111111112
+          ]
+        },
+        "adjusted_semisynthetic": {
+          "fdr": [
+            0.008333333333333335,
+            0.042499999999999996,
+            0.06966666666666667
+          ],
+          "tpr": [
+            0.97,
+            0.9799999999999999,
+            0.9949999999999999
+          ]
+        },
+        "adjusted_null": {
+          "fdr": [
+            0.0,
+            0.025,
+            0.025
+          ],
+          "tpr": null
+        },
+        "targeted_nonnull": {
+          "fdr": [
+            0.018823529411764704,
+            0.03492880485527544,
+            0.10877819076348488
+          ],
+          "tpr": [
+            0.10169117647058823,
+            0.1399509803921569,
+            0.21497549019607842
+          ]
+        },
+        "targeted_synthetic": {
+          "fdr": [
+            0.012777777777777777,
+            0.02517691798941799,
+            0.09521354802604802
+          ],
+          "tpr": [
+            0.09197916666666665,
+            0.13437500000000002,
+            0.22052083333333336
+          ]
+        },
+        "targeted_semisynthetic": {
+          "fdr": [
+            0.03333333333333333,
+            0.05833333333333333,
+            0.14133333333333334
+          ],
+          "tpr": [
+            0.125,
+            0.15333333333333335,
+            0.20166666666666666
+          ]
+        },
+        "targeted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.05
+          ],
+          "tpr": null
+        }
+      }
+    },
+    {
+      "epoch": 16,
+      "training_loss": 0.20651966451322884,
+      "checks": {
+        "standard_power": false,
+        "standard_fdr": true,
+        "broad_nonnull_fdr": true,
+        "broad_synthetic_fdr": true,
+        "broad_null_fdr": true,
+        "adjusted_nonnull_fdr": true,
+        "adjusted_synthetic_fdr": true,
+        "adjusted_semisynthetic_fdr": true,
+        "adjusted_null_fdr": true,
+        "targeted_nonnull_fdr": true,
+        "targeted_synthetic_fdr": true,
+        "targeted_semisynthetic_fdr": true,
+        "targeted_null_fdr": true,
+        "broad_nonnull_retention": true,
+        "adjusted_synthetic_retention": true,
+        "adjusted_semisynthetic_retention": true,
+        "targeted_synthetic_retention": true,
+        "targeted_semisynthetic_retention": true,
+        "new_gain": true
+      },
+      "feasible": false,
+      "objective": 0.15107638888888889,
+      "baseline_objective": 0.1216666666666667,
+      "fallback_score": 0.10720998888888861,
+      "standard": {
+        "fdr": [
+          0.036120254745254744,
+          0.08074847162641277,
+          0.17999657185261508
+        ],
+        "tpr": [
+          0.21785999999999994,
+          0.3063133333333334,
+          0.39211333333333337
+        ]
+      },
+      "new_groups": {
+        "broad_nonnull": {
+          "fdr": [
+            0.012957142857142856,
+            0.02463809523809524,
+            0.06076587301587302
+          ],
+          "tpr": [
+            0.13663333333333333,
+            0.16886666666666666,
+            0.2215416666666667
+          ]
+        },
+        "broad_synthetic": {
+          "fdr": [
+            0.012957142857142856,
+            0.02463809523809524,
+            0.06076587301587302
+          ],
+          "tpr": [
+            0.13663333333333333,
+            0.16886666666666666,
+            0.2215416666666667
+          ]
+        },
+        "broad_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.08333333333333333
+          ],
+          "tpr": null
+        },
+        "adjusted_nonnull": {
+          "fdr": [
+            0.011465919701213818,
+            0.03374883286647992,
+            0.11076224429165608
+          ],
+          "tpr": [
+            0.7823284313725489,
+            0.829093137254902,
+            0.8846323529411765
+          ]
+        },
+        "adjusted_synthetic": {
+          "fdr": [
+            0.008604497354497352,
+            0.029060846560846555,
+            0.11767706830206831
+          ],
+          "tpr": [
+            0.6999652777777777,
+            0.7641319444444444,
+            0.8386458333333334
+          ]
+        },
+        "adjusted_semisynthetic": {
+          "fdr": [
+            0.018333333333333333,
+            0.045,
+            0.09416666666666666
+          ],
+          "tpr": [
+            0.9799999999999999,
+            0.985,
+            0.9949999999999999
+          ]
+        },
+        "adjusted_null": {
+          "fdr": [
+            0.0,
+            0.025,
+            0.025
+          ],
+          "tpr": null
+        },
+        "targeted_nonnull": {
+          "fdr": [
+            0.014950980392156862,
+            0.03775210084033614,
+            0.09065943043884221
+          ],
+          "tpr": [
+            0.09720588235294117,
+            0.13686274509803925,
+            0.2081372549019608
+          ]
+        },
+        "targeted_synthetic": {
+          "fdr": [
+            0.006944444444444445,
+            0.02054563492063492,
+            0.06885085978835978
+          ],
+          "tpr": [
+            0.08562499999999999,
+            0.13000000000000003,
+            0.2108333333333334
+          ]
+        },
+        "targeted_semisynthetic": {
+          "fdr": [
+            0.034166666666666665,
+            0.07904761904761903,
+            0.14300000000000002
+          ],
+          "tpr": [
+            0.125,
+            0.15333333333333335,
+            0.20166666666666666
+          ]
+        },
+        "targeted_null": {
+          "fdr": [
+            0.0,
+            0.025,
+            0.05
+          ],
+          "tpr": null
+        }
+      }
+    },
+    {
+      "epoch": 17,
+      "training_loss": 0.20571385704030828,
+      "checks": {
+        "standard_power": false,
+        "standard_fdr": true,
+        "broad_nonnull_fdr": true,
+        "broad_synthetic_fdr": true,
+        "broad_null_fdr": true,
+        "adjusted_nonnull_fdr": true,
+        "adjusted_synthetic_fdr": true,
+        "adjusted_semisynthetic_fdr": true,
+        "adjusted_null_fdr": true,
+        "targeted_nonnull_fdr": true,
+        "targeted_synthetic_fdr": true,
+        "targeted_semisynthetic_fdr": true,
+        "targeted_null_fdr": true,
+        "broad_nonnull_retention": true,
+        "adjusted_synthetic_retention": true,
+        "adjusted_semisynthetic_retention": true,
+        "targeted_synthetic_retention": true,
+        "targeted_semisynthetic_retention": true,
+        "new_gain": true
+      },
+      "feasible": false,
+      "objective": 0.1399826388888889,
+      "baseline_objective": 0.1216666666666667,
+      "fallback_score": 0.051626638888889465,
+      "standard": {
+        "fdr": [
+          0.030232281607281607,
+          0.0748956411235823,
+          0.1695195905676462
+        ],
+        "tpr": [
+          0.2113999999999999,
+          0.29968666666666677,
+          0.3879133333333334
+        ]
+      },
+      "new_groups": {
+        "broad_nonnull": {
+          "fdr": [
+            0.010833333333333332,
+            0.02065714285714286,
+            0.050633333333333336
+          ],
+          "tpr": [
+            0.1313,
+            0.1537333333333333,
+            0.20698333333333335
+          ]
+        },
+        "broad_synthetic": {
+          "fdr": [
+            0.010833333333333332,
+            0.02065714285714286,
+            0.050633333333333336
+          ],
+          "tpr": [
+            0.1313,
+            0.1537333333333333,
+            0.20698333333333335
+          ]
+        },
+        "broad_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.08333333333333333
+          ],
+          "tpr": null
+        },
+        "adjusted_nonnull": {
+          "fdr": [
+            0.010473856209150326,
+            0.030685107376283847,
+            0.10353885493591372
+          ],
+          "tpr": [
+            0.7706372549019607,
+            0.8147303921568627,
+            0.8718627450980393
+          ]
+        },
+        "adjusted_synthetic": {
+          "fdr": [
+            0.008240740740740741,
+            0.024720568783068785,
+            0.11188837782587778
+          ],
+          "tpr": [
+            0.685486111111111,
+            0.7458680555555556,
+            0.8205555555555556
+          ]
+        },
+        "adjusted_semisynthetic": {
+          "fdr": [
+            0.01583333333333333,
+            0.045,
+            0.08349999999999999
+          ],
+          "tpr": [
+            0.975,
+            0.9799999999999999,
+            0.9949999999999999
+          ]
+        },
+        "adjusted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.025
+          ],
+          "tpr": null
+        },
+        "targeted_nonnull": {
+          "fdr": [
+            0.013627450980392156,
+            0.029663865546218485,
+            0.0833817163228928
+          ],
+          "tpr": [
+            0.08625,
+            0.12715686274509805,
+            0.19073529411764703
+          ]
+        },
+        "targeted_synthetic": {
+          "fdr": [
+            0.006111111111111111,
+            0.013551587301587302,
+            0.059235209235209224
+          ],
+          "tpr": [
+            0.07427083333333334,
+            0.11625000000000002,
+            0.19104166666666667
+          ]
+        },
+        "targeted_semisynthetic": {
+          "fdr": [
+            0.03166666666666666,
+            0.06833333333333333,
+            0.14133333333333334
+          ],
+          "tpr": [
+            0.11499999999999999,
+            0.15333333333333335,
+            0.19000000000000003
+          ]
+        },
+        "targeted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.05
+          ],
+          "tpr": null
+        }
+      }
+    },
+    {
+      "epoch": 18,
+      "training_loss": 0.20556543265231486,
+      "checks": {
+        "standard_power": false,
+        "standard_fdr": true,
+        "broad_nonnull_fdr": true,
+        "broad_synthetic_fdr": true,
+        "broad_null_fdr": true,
+        "adjusted_nonnull_fdr": true,
+        "adjusted_synthetic_fdr": true,
+        "adjusted_semisynthetic_fdr": true,
+        "adjusted_null_fdr": true,
+        "targeted_nonnull_fdr": true,
+        "targeted_synthetic_fdr": true,
+        "targeted_semisynthetic_fdr": true,
+        "targeted_null_fdr": true,
+        "broad_nonnull_retention": false,
+        "adjusted_synthetic_retention": true,
+        "adjusted_semisynthetic_retention": true,
+        "targeted_synthetic_retention": true,
+        "targeted_semisynthetic_retention": true,
+        "new_gain": true
+      },
+      "feasible": false,
+      "objective": 0.13140625,
+      "baseline_objective": 0.1216666666666667,
+      "fallback_score": -0.008892249999999324,
+      "standard": {
+        "fdr": [
+          0.025581956931956938,
+          0.07095896749449382,
+          0.16072786879024867
+        ],
+        "tpr": [
+          0.2071599999999999,
+          0.2948333333333335,
+          0.38420000000000004
+        ]
+      },
+      "new_groups": {
+        "broad_nonnull": {
+          "fdr": [
+            0.009833333333333335,
+            0.018623809523809525,
+            0.05150238095238095
+          ],
+          "tpr": [
+            0.1303,
+            0.15506666666666666,
+            0.20102499999999998
+          ]
+        },
+        "broad_synthetic": {
+          "fdr": [
+            0.009833333333333335,
+            0.018623809523809525,
+            0.05150238095238095
+          ],
+          "tpr": [
+            0.1303,
+            0.15506666666666666,
+            0.20102499999999998
+          ]
+        },
+        "broad_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.016666666666666666
+          ],
+          "tpr": null
+        },
+        "adjusted_nonnull": {
+          "fdr": [
+            0.008267973856209152,
+            0.027855975723622778,
+            0.09877928444104912
+          ],
+          "tpr": [
+            0.7684558823529412,
+            0.8152205882352941,
+            0.8710049019607842
+          ]
+        },
+        "adjusted_synthetic": {
+          "fdr": [
+            0.008240740740740741,
+            0.024184854497354497,
+            0.10847898629148627
+          ],
+          "tpr": [
+            0.6844791666666666,
+            0.7465625,
+            0.8193402777777776
+          ]
+        },
+        "adjusted_semisynthetic": {
+          "fdr": [
+            0.008333333333333335,
+            0.03666666666666667,
+            0.0755
+          ],
+          "tpr": [
+            0.97,
+            0.9799999999999999,
+            0.9949999999999999
+          ]
+        },
+        "adjusted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.025
+          ],
+          "tpr": null
+        },
+        "targeted_nonnull": {
+          "fdr": [
+            0.01019607843137255,
+            0.028830532212885153,
+            0.07876336898395722
+          ],
+          "tpr": [
+            0.07914215686274509,
+            0.1225,
+            0.18539215686274507
+          ]
+        },
+        "targeted_synthetic": {
+          "fdr": [
+            0.004722222222222222,
+            0.01445436507936508,
+            0.05422032828282827
+          ],
+          "tpr": [
+            0.07322916666666668,
+            0.11312499999999999,
+            0.19041666666666668
+          ]
+        },
+        "targeted_semisynthetic": {
+          "fdr": [
+            0.023333333333333334,
+            0.06333333333333332,
+            0.13766666666666666
+          ],
+          "tpr": [
+            0.09333333333333334,
+            0.14500000000000002,
+            0.17333333333333337
+          ]
+        },
+        "targeted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.05
+          ],
+          "tpr": null
+        }
+      }
+    },
+    {
+      "epoch": 19,
+      "training_loss": 0.2053141128921868,
+      "checks": {
+        "standard_power": false,
+        "standard_fdr": true,
+        "broad_nonnull_fdr": true,
+        "broad_synthetic_fdr": true,
+        "broad_null_fdr": true,
+        "adjusted_nonnull_fdr": true,
+        "adjusted_synthetic_fdr": true,
+        "adjusted_semisynthetic_fdr": true,
+        "adjusted_null_fdr": true,
+        "targeted_nonnull_fdr": true,
+        "targeted_synthetic_fdr": true,
+        "targeted_semisynthetic_fdr": true,
+        "targeted_null_fdr": true,
+        "broad_nonnull_retention": true,
+        "adjusted_synthetic_retention": true,
+        "adjusted_semisynthetic_retention": true,
+        "targeted_synthetic_retention": true,
+        "targeted_semisynthetic_retention": true,
+        "new_gain": true
+      },
+      "feasible": false,
+      "objective": 0.1361111111111111,
+      "baseline_objective": 0.1216666666666667,
+      "fallback_score": 0.02223511111111176,
+      "standard": {
+        "fdr": [
+          0.02774306804306804,
+          0.07184845349868568,
+          0.1668106731032386
+        ],
+        "tpr": [
+          0.2085599999999999,
+          0.29701333333333346,
+          0.38492000000000004
+        ]
+      },
+      "new_groups": {
+        "broad_nonnull": {
+          "fdr": [
+            0.010166666666666666,
+            0.02065714285714286,
+            0.04981111111111112
+          ],
+          "tpr": [
+            0.1328,
+            0.15826666666666664,
+            0.20691666666666667
+          ]
+        },
+        "broad_synthetic": {
+          "fdr": [
+            0.010166666666666666,
+            0.02065714285714286,
+            0.04981111111111112
+          ],
+          "tpr": [
+            0.1328,
+            0.15826666666666664,
+            0.20691666666666667
+          ]
+        },
+        "broad_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.08333333333333333
+          ],
+          "tpr": null
+        },
+        "adjusted_nonnull": {
+          "fdr": [
+            0.00973856209150327,
+            0.03036998132586368,
+            0.101902533740769
+          ],
+          "tpr": [
+            0.7698039215686273,
+            0.817156862745098,
+            0.8737009803921568
+          ]
+        },
+        "adjusted_synthetic": {
+          "fdr": [
+            0.008240740740740741,
+            0.025315806878306882,
+            0.10991747835497832
+          ],
+          "tpr": [
+            0.6863888888888888,
+            0.7493055555555554,
+            0.8231597222222221
+          ]
+        },
+        "adjusted_semisynthetic": {
+          "fdr": [
+            0.013333333333333336,
+            0.042499999999999996,
+            0.08266666666666667
+          ],
+          "tpr": [
+            0.97,
+            0.9799999999999999,
+            0.9949999999999999
+          ]
+        },
+        "adjusted_null": {
+          "fdr": [
+            0.0,
+            0.025,
+            0.025
+          ],
+          "tpr": null
+        },
+        "targeted_nonnull": {
+          "fdr": [
+            0.013627450980392156,
+            0.029663865546218485,
+            0.08232779475426535
+          ],
+          "tpr": [
+            0.08098039215686273,
+            0.1267892156862745,
+            0.1902696078431372
+          ]
+        },
+        "targeted_synthetic": {
+          "fdr": [
+            0.006111111111111111,
+            0.013551587301587302,
+            0.057186598124098126
+          ],
+          "tpr": [
+            0.07375,
+            0.11572916666666667,
+            0.19385416666666663
+          ]
+        },
+        "targeted_semisynthetic": {
+          "fdr": [
+            0.03166666666666666,
+            0.06833333333333333,
+            0.14266666666666666
+          ],
+          "tpr": [
+            0.09833333333333334,
+            0.15333333333333335,
+            0.1816666666666667
+          ]
+        },
+        "targeted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.05
+          ],
+          "tpr": null
+        }
+      }
+    },
+    {
+      "epoch": 20,
+      "training_loss": 0.20503338180480357,
+      "checks": {
+        "standard_power": false,
+        "standard_fdr": true,
+        "broad_nonnull_fdr": true,
+        "broad_synthetic_fdr": true,
+        "broad_null_fdr": true,
+        "adjusted_nonnull_fdr": true,
+        "adjusted_synthetic_fdr": true,
+        "adjusted_semisynthetic_fdr": true,
+        "adjusted_null_fdr": true,
+        "targeted_nonnull_fdr": true,
+        "targeted_synthetic_fdr": true,
+        "targeted_semisynthetic_fdr": true,
+        "targeted_null_fdr": true,
+        "broad_nonnull_retention": true,
+        "adjusted_synthetic_retention": true,
+        "adjusted_semisynthetic_retention": true,
+        "targeted_synthetic_retention": true,
+        "targeted_semisynthetic_retention": true,
+        "new_gain": true
+      },
+      "feasible": false,
+      "objective": 0.14472222222222222,
+      "baseline_objective": 0.1216666666666667,
+      "fallback_score": 0.09877582222222198,
+      "standard": {
+        "fdr": [
+          0.03622561605061605,
+          0.07946694237135411,
+          0.17979729935868305
+        ],
+        "tpr": [
+          0.21716666666666662,
+          0.30505333333333345,
+          0.39339333333333326
+        ]
+      },
+      "new_groups": {
+        "broad_nonnull": {
+          "fdr": [
+            0.010833333333333332,
+            0.023190476190476192,
+            0.05546666666666666
+          ],
+          "tpr": [
+            0.13463333333333335,
+            0.1661,
+            0.214975
+          ]
+        },
+        "broad_synthetic": {
+          "fdr": [
+            0.010833333333333332,
+            0.023190476190476192,
+            0.05546666666666666
+          ],
+          "tpr": [
+            0.13463333333333335,
+            0.1661,
+            0.214975
+          ]
+        },
+        "broad_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.08333333333333333
+          ],
+          "tpr": null
+        },
+        "adjusted_nonnull": {
+          "fdr": [
+            0.00957516339869281,
+            0.033625116713352006,
+            0.10928932178932176
+          ],
+          "tpr": [
+            0.781593137254902,
+            0.8279411764705884,
+            0.8828186274509803
+          ]
+        },
+        "adjusted_synthetic": {
+          "fdr": [
+            0.00800925925925926,
+            0.029927248677248677,
+            0.11899320586820583
+          ],
+          "tpr": [
+            0.6989236111111109,
+            0.7625000000000001,
+            0.8360763888888888
+          ]
+        },
+        "adjusted_semisynthetic": {
+          "fdr": [
+            0.013333333333333336,
+            0.042499999999999996,
+            0.086
+          ],
+          "tpr": [
+            0.9799999999999999,
+            0.985,
+            0.9949999999999999
+          ]
+        },
+        "adjusted_null": {
+          "fdr": [
+            0.0,
+            0.025,
+            0.025
+          ],
+          "tpr": null
+        },
+        "targeted_nonnull": {
+          "fdr": [
+            0.014215686274509802,
+            0.033130252100840335,
+            0.09052860538154656
+          ],
+          "tpr": [
+            0.09169117647058822,
+            0.13311274509803922,
+            0.20009803921568628
+          ]
+        },
+        "targeted_synthetic": {
+          "fdr": [
+            0.006944444444444445,
+            0.018462301587301586,
+            0.06935996873496873
+          ],
+          "tpr": [
+            0.0840625,
+            0.1246875,
+            0.20291666666666672
+          ]
+        },
+        "targeted_semisynthetic": {
+          "fdr": [
+            0.03166666666666666,
+            0.06833333333333333,
+            0.14133333333333334
+          ],
+          "tpr": [
+            0.10999999999999999,
+            0.15333333333333335,
+            0.19333333333333336
+          ]
+        },
+        "targeted_null": {
+          "fdr": [
+            0.0,
+            0.0,
+            0.05
+          ],
+          "tpr": null
+        }
+      }
+    }
+  ],
+  "training_source_sha256": "87d9443f4d7ccddfdb9a9f22b268884df8d8ed0b9770b5d08c48b5a8ac4ae2ec",
+  "input_columns": 443,
+  "training_datasets": 5216,
+  "parameter_count": 65153,
+  "initial_weights_sha256": "3871c5b48c439a7e6b3e597484c0d7ec3a32b7899e2594d97032f015d6a553bd",
+  "seconds": 23.315520326024853
+}

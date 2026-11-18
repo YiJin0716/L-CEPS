@@ -1,0 +1,26 @@
+{
+  "mnist": {
+    "url": "https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz",
+    "raw_sha256": "731c5ac602752760c8e48fbffcf8c3b850d9dc2a2aedcf2cc48468fc17b673d1",
+    "shape": [
+      60000,
+      784
+    ],
+    "dtype": "uint8",
+    "outcome_unused": true,
+    "raw_bytes": 11490434,
+    "pool": "Official 60,000 training images only; flatten 28 by 28 pixels; original digit labels unused."
+  },
+  "basehock": {
+    "url": "https://raw.githubusercontent.com/jundongl/scikit-feature/48cffad4e88ff4b9d2f1c7baffb314d1b3303792/skfeature/data/BASEHOCK.mat",
+    "raw_sha256": "e0452e0f3c0fefdc5cb6352165e4ba4a25c3a2a7b5a5b4d44e103742d6317aa0",
+    "shape": [
+      1993,
+      4862
+    ],
+    "dtype": "uint8",
+    "outcome_unused": true,
+    "raw_bytes": 279059,
+    "pool": "Scikit-feature BASEHOCK text predictor matrix; original class labels unused."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "the model",
+  "kind": "mlp_screened_single_f",
+  "weights_file": "retained_mlp_hard_rows.pt",
+  "architecture": [
+    443,
+    128,
+    64,
+    1
+  ],
+  "parameter_count": 65153,
+  "training_datasets": 5216,
+  "training_variable_rows": 1636538,
+  "training": "Continuation from the original small MLP; multiply rows having min of eight IPSS q measurements <= .5 by 10, normalize within dataset, give original/additional sources 65/35 percent total weight. Keep epoch 5.",
+  "second_scorer": false,
+  "calibration": false,
+  "candidate_gate": true,
+  "screening_rule": "union10_at_target",
+  "weights_and_schema_sha256": {
+    "retained_mlp_hard_rows.pt": "c984d982fc50b2219dd9486e7450099c8b667f1cda554771059fcd1180d72bf9",
+    "expanded_f.json": "13b36fc1a9e5c23a65829879a83bb39e48f62e86de84a62749d3031c3513405a",
+    "final/prior.ubj": "f1ed2767016667d548967612a312a9e305d1c64c96aab44bb2c7a5039542bddc"
+  },
+  "training_protocol_sha256": "5726a930a870714cd822c6647c02e5e489028d1e54570a125c6a2ed8903ade0b",
+  "confirmation_protocol_sha256": "1706719fa98904c2a7ace36362c78a9c3bc75f2bad7561e65b9b713a6dbe1f40"
+}

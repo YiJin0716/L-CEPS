@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.aux
+*.out
+*.toc
+.venv/
+.r-library/
+runs/

@@ -1,0 +1,9 @@
+{
+  "kind": "paper_small_sample",
+  "protocol_sha256": "a3cfb84124641522c3ec3e75ce0193f9f818dbc256b2aac5d86006402e7dc0a6",
+  "counts_sha256": "5ac68d6e18ab667df10b6292b54534d44f7ca5e08c85ae9b47151bdca622c6c3",
+  "common_protocol_sha256": "c7a2b2f2153fbe3ba0b9c8af33094e814c01e7519b1a3cd165d686946c3d980b",
+  "common_counts_sha256": "dc98c57570d9d37d895983304d2143374d65e4080b0eb3628baa6301266df287",
+  "all_settings_reported": true,
+  "previous_note_backup": "/tmp/ipss-before-paper-evaluation-rxbzxnh0"
+}

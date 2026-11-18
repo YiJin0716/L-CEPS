@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "raw_data_cases": [
+    {
+      "case": 0,
+      "response": "reg",
+      "source": "gaussian",
+      "paths_exact": true,
+      "measurements_exact": true,
+      "probabilities_exact": true,
+      "selected_variables_exact": true
+    },
+    {
+      "case": 1,
+      "response": "class",
+      "source": "gaussian",
+      "paths_exact": true,
+      "measurements_exact": true,
+      "probabilities_exact": true,
+      "selected_variables_exact": true
+    },
+    {
+      "case": 2,
+      "response": "reg",
+      "source": "real",
+      "paths_exact": true,
+      "measurements_exact": true,
+      "probabilities_exact": true,
+      "selected_variables_exact": true
+    }
+  ],
+  "cli_exactly_matches": true,
+  "independent_directory_test": true,
+  "no_original_project_imports": true,
+  "protocols_resolve_inside_package": true,
+  "all_recorded_seed_exclusions_checked": true,
+  "weights_sha256": "c984d982fc50b2219dd9486e7450099c8b667f1cda554771059fcd1180d72bf9",
+  "prior_sha256": "f1ed2767016667d548967612a312a9e305d1c64c96aab44bb2c7a5039542bddc"
+}
