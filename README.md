@@ -1,4 +1,4 @@
-# A Learned Variable Selector Built on IPSS
+# L-CEPS: Learned Cumulative Error Probability Selection
 
 Official implementation and reproducibility materials by **Yi Jin** and
 **Omar Melikechi**. This directory contains the released model, fitted weights,
@@ -32,8 +32,8 @@ Tested with Python 3.10 on Linux. CPU inference is supported; a GPU is not requi
 Install [Git LFS](https://git-lfs.com/) before downloading binary artifacts.
 
 ```bash
-GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/YiJin0716/final_model.git
-cd final_model
+GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/YiJin0716/L-CEPS.git
+cd L-CEPS
 git lfs install --local
 git lfs pull --include="models/**" --exclude=""
 python3.10 -m venv .venv
@@ -88,7 +88,7 @@ input and prints the selected columns.
 ## Repository layout
 
 ```text
-final_model/
+L-CEPS/
 ├── explore/                 # Released inference implementation
 ├── models/                  # F and g weights, input schema, model manifest
 ├── data/                    # Training inputs, predictor pools, protocols, results

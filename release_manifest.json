@@ -1,11 +1,11 @@
 {
   "format_version": 1,
-  "artifact": "A Learned Variable Selector Built on IPSS",
+  "artifact": "L-CEPS: Learned Cumulative Error Probability Selection",
   "authors": [
     "Yi Jin",
     "Omar Melikechi"
   ],
-  "created_utc": "2026-11-18T19:35:07.268270+00:00",
+  "created_utc": "2026-11-18T20:08:13.454790+00:00",
   "base_commit": "113bc3231f40b5380ca6a8fcdf28eb30d729e6a0",
   "model_manifest": "models/active_model.json",
   "technical_note": "final_model_note.pdf",
@@ -19,16 +19,16 @@
       "bytes": 78
     },
     "CITATION.cff": {
-      "sha256": "07c32e348687ea93cec1057444bec67cbd30984d2f69c3dcfd8dfef11e4a220b",
-      "bytes": 689
+      "sha256": "0c56e6f1264783cdd4c84ac190d8a615620f17fed3f1fb9cc36d5e6bcdda8dee",
+      "bytes": 701
     },
     "Makefile": {
       "sha256": "dd4a180fd581aa441188f76832ec4e4873d08cfc4a8627bd0852c261a50d71c7",
       "bytes": 2031
     },
     "README.md": {
-      "sha256": "5bdef20b89262bf7889eb8b63d352c9162a8d0650c3941d82b4b7793f055144a",
-      "bytes": 6540
+      "sha256": "c35966b1cf6685d556dd1dcdd4d07468b79b937e29d7ef55d03af6e003fe9d90",
+      "bytes": 6538
     },
     "__init__.py": {
       "sha256": "2d5d1e512e7756c1f4506667c7765042f3e092e5b8dab94f8eb7ce039c5021fd",
@@ -223,8 +223,8 @@
       "bytes": 1106
     },
     "explore/README.md": {
-      "sha256": "5bdef20b89262bf7889eb8b63d352c9162a8d0650c3941d82b4b7793f055144a",
-      "bytes": 6540,
+      "sha256": "c35966b1cf6685d556dd1dcdd4d07468b79b937e29d7ef55d03af6e003fe9d90",
+      "bytes": 6538,
       "symlink_target": "../README.md"
     },
     "explore/__init__.py": {
@@ -421,8 +421,8 @@
     }
   },
   "file_count": 102,
-  "total_bytes": 784877837,
+  "total_bytes": 784877845,
   "verification": "python scripts/verify_release.py --full",
   "scope": "Distributed final_model artifacts; this manifest itself and generated environments/runs are excluded.",
-  "repository": "https://github.com/YiJin0716/final_model"
+  "repository": "https://github.com/YiJin0716/L-CEPS"
 }

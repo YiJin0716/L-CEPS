@@ -1,16 +1,16 @@
 cff-version: 1.2.0
 message: "Please cite this software and record the Git commit used. The paper title is not yet finalized."
 type: software
-title: "A Learned Variable Selector Built on IPSS: Software and Reproducibility Materials"
+title: "L-CEPS: Learned Cumulative Error Probability Selection"
 authors:
   - family-names: Jin
     given-names: Yi
   - family-names: Melikechi
     given-names: Omar
-repository-code: "https://github.com/YiJin0716/final_model"
-url: "https://github.com/YiJin0716/final_model"
+repository-code: "https://github.com/YiJin0716/L-CEPS"
+url: "https://github.com/YiJin0716/L-CEPS"
 date-released: 2026-11-18
-abstract: "Released IPSS-screened learned variable selector, fitted weights, training inputs, and reproducible small-sample evaluations."
+abstract: "Learned Cumulative Error Probability Selection (L-CEPS): released IPSS-screened variable selector, fitted weights, training inputs, and reproducible small-sample evaluations."
 keywords:
   - feature selection
   - IPSS
